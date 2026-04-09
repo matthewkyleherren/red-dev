@@ -1,0 +1,100 @@
+{
+  "page": "biomarker-detail (albumin-test)",
+  "viewport": "mobile 375px",
+  "overallMatch": "90.85%",
+  "sections": [
+    {
+      "name": "01-navbar",
+      "match": "100.00%",
+      "issues": "None"
+    },
+    {
+      "name": "02-hero",
+      "match": "100.00%",
+      "issues": "None"
+    },
+    {
+      "name": "03-content-section",
+      "match": "89.53%",
+      "originalHeight": 5876,
+      "nextjsHeight": 5780,
+      "heightDiff": "96px (original taller)",
+      "issues": [
+        "MAJOR: Rich text content blocks are split differently. Original has 3 .w-richtext blocks (last one contains 25 children spanning sections 3-6). Next.js has 6 separate blocks (one per section heading). This causes cumulative vertical drift.",
+        "UL margin-bottom: Original UL elements have 16px margin-bottom; Next.js UL last-child gets 0px due to CSS specificity of the .w-richtext > :last-child rule zeroing it out, since in Next.js each section's UL is the last child of its .w-richtext container.",
+        "The 96px cumulative height difference arises from content layout drift caused by the split blocks."
+      ]
+    },
+    {
+      "name": "04-book-test-cta",
+      "match": "71.62%",
+      "issues": [
+        "MAJOR: Background gradient rendering differs. Original uses a <canvas> element (375x600) for a dynamic/animated gradient. Next.js uses a CSS linear-gradient(135deg, #B73A00, #F79732, #EF751B, #E05302). The gradient pattern and color distribution differ significantly.",
+        "The CTA text, button, and bottom feature items (Physician reviewed, CLIA-certified labs, HIPAA compliant) are identical in both versions."
+      ]
+    },
+    {
+      "name": "05-ask-ai",
+      "match": "100.00%",
+      "issues": "None"
+    },
+    {
+      "name": "06-newsletter-mobile",
+      "match": "99.08%",
+      "issues": "Negligible sub-pixel text rendering differences"
+    },
+    {
+      "name": "07-similar-biomarkers",
+      "match": "92.45%",
+      "issues": [
+        "MINOR: Chat widget overlay ('Hey there! Got any questions?' in original vs '2 Issues' badge in Next.js) causes bottom-of-section mismatch. Content itself is identical."
+      ]
+    },
+    {
+      "name": "08-faqs",
+      "match": "96.58%",
+      "issues": [
+        "MINOR: Chat widget and sticky navbar overlaps cause mismatches. FAQ content, structure (10 items), and heading are identical."
+      ]
+    },
+    {
+      "name": "09-bottom-cta",
+      "match": "95.96%",
+      "issues": [
+        "MINOR: Chat widget overlay difference at bottom. Background image, text, and button are identical."
+      ]
+    },
+    {
+      "name": "10-footer",
+      "match": "92.65%",
+      "originalHeight": 836,
+      "nextjsHeight": 847,
+      "heightDiff": "11px (Next.js taller)",
+      "issues": [
+        "MEDIUM: 'AI recommends Superpower...' text has different font size — original uses 16px, Next.js uses 14px. This causes different line wrapping and a 6px height difference (45px vs 39px).",
+        "MINOR: AI logo icons have slight rendering differences.",
+        "MINOR: Chat widget overlay at bottom differs between versions."
+      ]
+    }
+  ],
+  "topIssuesSummary": [
+    {
+      "priority": 1,
+      "section": "04-book-test-cta",
+      "issue": "Canvas gradient vs CSS gradient — 28.38% mismatch",
+      "fix": "Either replicate the canvas-based gradient animation (the original uses Webflow's built-in gradient canvas), or capture the exact gradient stops and angles from the canvas to better match the CSS fallback."
+    },
+    {
+      "priority": 2,
+      "section": "03-content-section",
+      "issue": "Rich text block splitting causes 96px cumulative height drift — 10.47% mismatch",
+      "fix": "Merge sections 3-6 (Key benefits through What do my results mean) into a single .blog-rich-text.w-richtext container to match the original Webflow CMS rich text rendering. This would eliminate the UL margin-bottom issue and vertical drift."
+    },
+    {
+      "priority": 3,
+      "section": "10-footer",
+      "issue": "Footer AI text font-size 14px vs 16px — 7.35% mismatch",
+      "fix": "Change the 'AI recommends Superpower...' text element font-size from 14px to 16px to match original."
+    }
+  ]
+}

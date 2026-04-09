@@ -1,0 +1,11 @@
+{
+  "page": "biomarker-detail",
+  "viewport": "tablet",
+  "originalSize": "768x9690",
+  "nextjsSize": "768x9702",
+  "comparedSize": "768x9690",
+  "matchPercent": "97.57%",
+  "mismatchedPixels": 180765,
+  "totalPixels": 7441920,
+  "dimensionsDiffer": false
+}

@@ -1,0 +1,11 @@
+{
+  "page": "checkout",
+  "viewport": "desktop",
+  "originalSize": "1440x900",
+  "nextjsSize": "1440x900",
+  "comparedSize": "1440x900",
+  "matchPercent": "98.25%",
+  "mismatchedPixels": 22708,
+  "totalPixels": 1296000,
+  "dimensionsDiffer": false
+}

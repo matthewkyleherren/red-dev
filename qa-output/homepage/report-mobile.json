@@ -1,0 +1,11 @@
+{
+  "page": "homepage",
+  "viewport": "mobile",
+  "originalSize": "375x16391",
+  "nextjsSize": "375x16401",
+  "comparedSize": "375x16391",
+  "matchPercent": "97.44%",
+  "mismatchedPixels": 157329,
+  "totalPixels": 6146625,
+  "dimensionsDiffer": false
+}

@@ -1,0 +1,11 @@
+{
+  "page": "checkout-gift",
+  "viewport": "desktop",
+  "originalSize": "1440x900",
+  "nextjsSize": "1440x900",
+  "comparedSize": "1440x900",
+  "matchPercent": "99.00%",
+  "mismatchedPixels": 12903,
+  "totalPixels": 1296000,
+  "dimensionsDiffer": false
+}

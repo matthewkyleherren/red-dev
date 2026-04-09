@@ -1,0 +1,1944 @@
+{
+  "panels": [
+    {
+      "id": "orange",
+      "name": "Baseline Panel",
+      "label": "Baseline"
+    },
+    {
+      "id": "amber",
+      "name": "Advanced Panel",
+      "label": "Advanced"
+    },
+    {
+      "id": "cyan",
+      "name": "Cardiovascular Panel",
+      "label": "Cardiovascular"
+    },
+    {
+      "id": "purple",
+      "name": "Fertility Panel",
+      "label": "Fertility"
+    },
+    {
+      "id": "green",
+      "name": "Metabolic Panel",
+      "label": "Metabolic"
+    },
+    {
+      "id": "red",
+      "name": "Autoimmunity Panel",
+      "label": "Autoimmunity"
+    },
+    {
+      "id": "gray",
+      "name": "Nutrition Panel",
+      "label": "Nutrients"
+    },
+    {
+      "id": "pink",
+      "name": "Methylation Panel",
+      "label": "Methylation"
+    },
+    {
+      "id": "teal",
+      "name": "Organ Age Panel",
+      "label": "Organ Age"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Heart & Vascular Health",
+      "slug": "heart-vascular-health",
+      "biomarkers": [
+        {
+          "name": "Non-HDL Cholesterol Test",
+          "slug": "non-hdl-cholesterol-test",
+          "description": "All cholesterol except good cholesterol; includes LDL, VLDL, and other atherogenic particles that contribute to plaque buildup and cardiovascular disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "HDL Cholesterol Test",
+          "slug": "hdl-cholesterol-test",
+          "description": "Good cholesterol that helps remove bad cholesterol from arteries; higher levels are protective against heart disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Triglycerides Test",
+          "slug": "triglycerides-test",
+          "description": "A type of fat in blood; high levels increase risk of heart disease and pancreatitis.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "LDL Cholesterol Test",
+          "slug": "ldl-cholesterol-test",
+          "description": "Bad cholesterol that can build up in arteries; high levels increase risk of heart disease and stroke.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Cholesterol/HDL Ratio Testing",
+          "slug": "cholesterol-hdl-ratio-test",
+          "description": "The Castelli Risk Index I reflects the balance between all circulating cholesterol and protective HDL; lower values indicate healthier lipid profiles and reduced cardiovascular risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "LDL/HDL Ratio Testing",
+          "slug": "ldl-hdl-ratio-test",
+          "description": "The Castelli Risk Index II compares bad cholesterol to good cholesterol; provides targeted insight into the balance between atherogenic and protective lipoproteins.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Cholesterol, Total Test",
+          "slug": "cholesterol-total-test",
+          "description": "The total amount of cholesterol in blood; high levels increase risk of heart disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Apolipoprotein B (ApoB) Testing",
+          "slug": "apolipoprotein-b-apob-test",
+          "description": "A protein that carries bad cholesterol; elevated levels increase risk of cardiovascular disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Lipoprotein (a) Testing",
+          "slug": "lipoprotein-a-test",
+          "description": "A type of lipoprotein associated with an increased risk of cardiovascular diseases.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "cyan",
+              "name": "Cardiovascular Panel"
+            }
+          ]
+        },
+        {
+          "name": "Neutrophil-to-HDL Cholesterol Ratio (NHR) Testing",
+          "slug": "neutrophil-to-hdl-cholesterol-ratio-nhr-test",
+          "description": "Integrates immune activation and lipid protection; elevated ratios are strongly associated with cardiovascular events, mortality, and systemic inflammation.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Triglyceride / HDL Cholesterol (Molar Ratio) Testing",
+          "slug": "triglyceride-hdl-cholesterol-molar-ratio-test",
+          "description": "A powerful marker of insulin resistance and metabolic syndrome; elevated ratios suggest metabolic dysfunction and increased cardiovascular risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Atherogenic Index of Plasma (AIP) Testing",
+          "slug": "atherogenic-index-of-plasma-aip-test",
+          "description": "Calculated as the logarithm of triglycerides to HDL ratio; reflects lipid quality and predicts cardiovascular risk compared with individual lipid markers.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Atherogenic Coefficient Test",
+          "slug": "atherogenic-coefficient-test",
+          "description": "Shows the ratio of potentially harmful cholesterol to protective HDL; higher values indicate increased risk of plaque formation and inflammation.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "LDL Cholesterol / Total Cholesterol (Mass Ratio) Testing",
+          "slug": "ldl-cholesterol-total-cholesterol-mass-ratio-test",
+          "description": "Expresses the proportion of total cholesterol made up of LDL; higher ratios indicate greater cardiovascular risk as more cholesterol is in atherogenic particles.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "LDL-C / ApoB Testing",
+          "slug": "ldl-c-apob-test",
+          "description": "Reflects cholesterol content per LDL particle and serves as a marker of particle size; low ratios indicate small, dense, more atherogenic LDL particles.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Uric Acid / HDL-C Testing",
+          "slug": "uric-acid-hdl-c-test",
+          "description": "Compares uric acid levels to protective HDL cholesterol; elevated ratios may indicate increased metabolic and cardiovascular risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "TG / ApoB Testing",
+          "slug": "tg-apob-test",
+          "description": "Provides insight into lipoprotein particle size and composition; low ratios suggest small, dense LDL particles that are more atherogenic.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Non-HDL Cholesterol / Apolipoprotein B (Non-HDL-C / ApoB) Testing",
+          "slug": "non-hdl-cholesterol-apolipoprotein-b-non-hdl-c-apob-test",
+          "description": "Reflects cholesterol content per atherogenic particle; low ratios suggest cholesterol-poor, small dense particles linked to increased cardiovascular risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Lipoprotein fractionation Test",
+          "slug": "lipoprotein-fractionation-test",
+          "description": "Breaks down cholesterol into particle types to assess heart health risk.",
+          "panels": [
+            {
+              "color": "cyan",
+              "name": "Cardiovascular Panel"
+            }
+          ]
+        },
+        {
+          "name": "ADMA Test",
+          "slug": "adma-test",
+          "description": "Measures blood vessel function and nitric oxide balance for vascular health.",
+          "panels": [
+            {
+              "color": "cyan",
+              "name": "Cardiovascular Panel"
+            }
+          ]
+        },
+        {
+          "name": "SDMA Test",
+          "slug": "sdma-test",
+          "description": "Measures blood vessel function and nitric oxide balance for vascular health.",
+          "panels": [
+            {
+              "color": "cyan",
+              "name": "Cardiovascular Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thyroid Health",
+      "slug": "thyroid",
+      "biomarkers": [
+        {
+          "name": "Free T4 Index (T7) Testing",
+          "slug": "free-t4-index-t7-test",
+          "description": "Estimates free thyroid hormone levels; helps assess thyroid function more accurately.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Thyroid-Stimulating Hormone (TSH) Testing",
+          "slug": "thyroid-stimulating-hormone-tsh-test",
+          "description": "A molecule that acts like a messenger, telling your thyroid gland how much hormone to produce; abnormal levels can signal an underactive or overactive thyroid.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "T3 Uptake Test",
+          "slug": "t3-uptake-test",
+          "description": "Measures thyroid hormone binding proteins; helps interpret thyroid function tests.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Thyroxine (T4), Total Testing",
+          "slug": "thyroxine-t4-total-test",
+          "description": "The main thyroid hormone; abnormal levels indicate overactive or underactive thyroid.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Thyroid peroxidase antibody Test",
+          "slug": "thyroid-peroxidase-antibodies-tpo-test",
+          "description": "Antibodies that attack the thyroid; presence indicates autoimmune thyroid disease.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Thyroglobulin Antibodies Test",
+          "slug": "thyroglobulin-antibodies-test",
+          "description": "Antibodies against thyroid protein; may indicate autoimmune thyroid conditions.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Triiodothyronine (T3), Free Testing",
+          "slug": "triiodothyronine-t3-free-test",
+          "description": "The active form of thyroid hormone; more accurately reflects thyroid function than total T3.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metabolic Health",
+      "slug": "metabolic-health",
+      "biomarkers": [
+        {
+          "name": "Glucose Test",
+          "slug": "glucose-test",
+          "description": "Blood sugar level; elevated levels may indicate diabetes or prediabetes.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Hemoglobin A1c (HbA1c) Testing",
+          "slug": "hemoglobin-a1c-hba1c-test",
+          "description": "Average blood sugar over 2-3 months; used to diagnose and monitor diabetes.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Estimated Average Glucose (mmol/L) Testing",
+          "slug": "estimated-average-glucose-mmol-l-test",
+          "description": "Converts HbA1c into estimated average blood glucose over 2-3 months in mmol/L units; reflects long-term glycemic control and metabolic health.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Estimated Average Glucose (mg/dL) Testing",
+          "slug": "estimated-average-glucose-mg-dl-test",
+          "description": "Converts HbA1c into estimated average blood glucose over 2-3 months; provides an intuitive measure of long-term glucose control in familiar glucose meter units.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Uric Acid Test",
+          "slug": "uric-acid-test",
+          "description": "A waste product that can form crystals in joints; high levels may cause gout or kidney stones.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Insulin Test",
+          "slug": "insulin-test",
+          "description": "A hormone that regulates blood sugar; elevated levels may indicate insulin resistance or diabetes risk.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Corrected Calcium (Albumin-adjusted) Testing",
+          "slug": "corrected-calcium-albumin-adjusted-test",
+          "description": "Adjusts total calcium based on albumin levels to estimate biologically active calcium; accounts for protein binding effects on calcium measurement.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "(Triglyceride - Glucose Index) - TyG Index Testing",
+          "slug": "triglyceride-glucose-index-tyg-index-test",
+          "description": "Estimates insulin resistance using fasting triglycerides and glucose; higher values suggest metabolic dysfunction and increased diabetes risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Leptin Test",
+          "slug": "leptin-test",
+          "description": "Regulates hunger and body weight balance.",
+          "panels": [
+            {
+              "color": "green",
+              "name": "Metabolic Panel"
+            }
+          ]
+        },
+        {
+          "name": "Cardio IQ Insulin Resistance Test",
+          "slug": "cardio-iq-insulin-resistance-test",
+          "description": "Assesses how well your body processes insulin and glucose.",
+          "panels": [
+            {
+              "color": "green",
+              "name": "Metabolic Panel"
+            }
+          ]
+        },
+        {
+          "name": "Adiponectin Test",
+          "slug": "adiponectin-test",
+          "description": "A hormone that improves insulin sensitivity and fat metabolism.",
+          "panels": [
+            {
+              "color": "green",
+              "name": "Metabolic Panel"
+            }
+          ]
+        },
+        {
+          "name": "Fructosamine Test",
+          "slug": "fructosamine-test",
+          "description": "Shows average blood sugar control over the past few weeks.",
+          "panels": [
+            {
+              "color": "green",
+              "name": "Metabolic Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Nutrients",
+      "slug": "nutrients",
+      "biomarkers": [
+        {
+          "name": "Hemoglobin",
+          "slug": "hemoglobin-01dd4",
+          "description": "The protein in red blood cells that carries oxygen; low levels indicate anemia while high levels may suggest dehydration or lung conditions.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Mean Corpuscular Hemoglobin (MCH) Testing",
+          "slug": "mean-corpuscular-hemoglobin-mch-test",
+          "description": "The average amount of hemoglobin in each red blood cell; useful for diagnosing different types of anemia.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Hematocrit Test",
+          "slug": "hematocrit-test",
+          "description": "The percentage of blood volume made up of red blood cells; helps assess for anemia, dehydration, or blood disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Red Blood Cells (RBC) Testing",
+          "slug": "red-blood-cells-rbc-test",
+          "description": "Cells that carry oxygen throughout your body; low levels may indicate anemia while high levels may suggest dehydration or lung disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Mean Corpuscular Volume (MCV) Testing",
+          "slug": "mean-corpuscular-volume-mcv-test",
+          "description": "The average size of red blood cells; helps classify different types of anemia and nutritional deficiencies.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Mean Corpuscular Hemoglobin Concentration (MCHC) Testing",
+          "slug": "mean-corpuscular-hemoglobin-concentration-mchc-test",
+          "description": "The concentration of hemoglobin in red blood cells; helps identify specific types of anemia and blood disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Platelet Count Test",
+          "slug": "platelet-count-test",
+          "description": "Blood cells responsible for clotting; low levels increase bleeding risk while high levels may increase clotting risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Red Cell Distribution Width (RDW) Testing",
+          "slug": "red-cell-distribution-width-rdw-test",
+          "description": "Measures variation in red blood cell size; elevated levels may indicate nutritional deficiencies or blood disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Mean Platelet Volume (MPV) Testing",
+          "slug": "mean-platelet-volume-mpv-test",
+          "description": "The average size of platelets; helps assess platelet function and bone marrow activity.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Protein, Total Test",
+          "slug": "protein-total-test",
+          "description": "The total amount of proteins in blood; abnormal levels may indicate liver disease, kidney disease, or nutritional problems.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin D, 25-Hydroxy Test",
+          "slug": "vitamin-d-25-hydroxy-test",
+          "description": "The storage form of vitamin D; low levels may cause bone problems, muscle weakness, and immune dysfunction.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "RDW / MCV Ratio Testing",
+          "slug": "rdw-mcv-ratio-test",
+          "description": "Compares red cell size variation to average cell size; helps characterize different types of anemia and red blood cell disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin C Test",
+          "slug": "vitamin-c-test",
+          "description": "Boosts immunity, collagen production, and recovery from stress or exercise.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Selenium Test",
+          "slug": "selenium-test",
+          "description": "Antioxidant that protects cells and supports thyroid and immune health.",
+          "panels": [
+            {
+              "color": "gray",
+              "name": "Nutrient & Antioxidant Panel"
+            }
+          ]
+        },
+        {
+          "name": "Magnesium Test",
+          "slug": "magnesium-test",
+          "description": "Supports muscle recovery, energy production, and relaxation.",
+          "panels": [
+            {
+              "color": "gray",
+              "name": "Nutrient & Antioxidant Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin K Test",
+          "slug": "vitamin-k-test",
+          "description": "Important for bone strength and normal blood clotting.",
+          "panels": [
+            {
+              "color": "gray",
+              "name": "Nutrient & Antioxidant Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin E Test",
+          "slug": "vitamin-e-test",
+          "description": "Protects cells and supports heart, skin, and reproductive health.",
+          "panels": [
+            {
+              "color": "gray",
+              "name": "Nutrient & Antioxidant Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin B12 (Cobalamin) Testing",
+          "slug": "vitamin-b12-cobalamin-test",
+          "description": "Supports energy, nerve function, and red blood cell health.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "pink",
+              "name": "Methylation Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Liver Health",
+      "slug": "liver",
+      "biomarkers": [
+        {
+          "name": "Alkaline Phosphatase (ALP) Testing",
+          "slug": "alkaline-phosphatase-alp-test",
+          "description": "An enzyme found in liver and bones; elevated levels may indicate liver disease or bone disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Albumin/Globulin Ratio Testing",
+          "slug": "albumin-globulin-ratio-test",
+          "description": "Compares albumin to globulin proteins; helps assess liver function, protein metabolism, and immune status.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Albumin Test",
+          "slug": "albumin-test",
+          "description": "The main protein in blood that maintains fluid balance; low levels may indicate liver disease, kidney disease, or malnutrition.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Alanine Aminotransferase (ALT) Testing",
+          "slug": "alanine-aminotransferase-alt-test",
+          "description": "A liver enzyme; elevated levels indicate liver damage or disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Bilirubin, Total Test",
+          "slug": "bilirubin-total-test",
+          "description": "A waste product from red blood cell breakdown; elevated levels may indicate liver disease or blood disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Globulin Test",
+          "slug": "globulin-test",
+          "description": "Blood proteins including antibodies; abnormal levels may indicate immune disorders, liver disease, or infections.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Aspartate Aminotransferase (AST) Testing",
+          "slug": "aspartate-aminotransferase-ast-test",
+          "description": "An enzyme found in liver and muscles; elevated levels may indicate liver damage or muscle injury.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Gamma-Glutamyl Transferase (GGT) Testing",
+          "slug": "gamma-glutamyl-transferase-ggt-test",
+          "description": "A liver enzyme sensitive to alcohol and bile duct problems; elevated levels may indicate liver disease.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Bilirubin, Direct Test",
+          "slug": "bilirubin-direct-test",
+          "description": "The processed form of bilirubin; elevated levels may indicate liver disease or bile duct problems.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Bilirubin, Indirect Test",
+          "slug": "bilirubin-indirect-test",
+          "description": "The unprocessed form of bilirubin; elevated levels may indicate blood disorders or liver problems.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Non-HDL Cholesterol / Total Cholesterol (Mass Ratio) Testing",
+          "slug": "non-hdl-cholesterol-total-cholesterol-mass-ratio-test",
+          "description": "Measures the proportion of total cholesterol carried by potentially harmful lipoproteins; higher ratios indicate increased atherosclerotic risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "GGT-to-HDL Cholesterol Ratio (GGT / HDL-C) Testing",
+          "slug": "ggt-to-hdl-cholesterol-ratio-ggt-hdl-c-test",
+          "description": "Reflects the balance between oxidative stress and lipid protection; elevated ratios suggest liver stress and increased cardiometabolic risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Indirect-to-Direct Bilirubin Ratio (I/D Bilirubin Ratio) Testing",
+          "slug": "indirect-to-direct-bilirubin-ratio-i-d-bilirubin-ratio-test",
+          "description": "Compares unconjugated to conjugated bilirubin; helps differentiate between hemolytic disorders and liver dysfunction.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Bilirubin-to-Albumin Ratio (BAR) Testing",
+          "slug": "bilirubin-to-albumin-ratio-bar-test",
+          "description": "Assesses the relationship between bilirubin levels and albumin; useful for evaluating liver synthetic function and bilirubin metabolism.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kidney Health",
+      "slug": "kidney",
+      "biomarkers": [
+        {
+          "name": "BUN/Creatinine Ratio Testing",
+          "slug": "bun-creatinine-ratio-test",
+          "description": "Reflects the relationship between urea and creatinine waste products; helps distinguish between dehydration, blood loss, kidney dysfunction, or liver issues.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Calcium Test",
+          "slug": "calcium-test",
+          "description": "Essential mineral for bones, muscles, and nerves; abnormal levels may indicate bone disease, kidney problems, or hormonal disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Potassium Test",
+          "slug": "potassium-test",
+          "description": "An electrolyte essential for heart and muscle function; abnormal levels can cause dangerous heart rhythm problems.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Carbon Dioxide (CO2) Testing",
+          "slug": "carbon-dioxide-co2-test",
+          "description": "Measures bicarbonate levels in blood; helps assess acid-base balance and kidney function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Creatinine Test",
+          "slug": "creatinine-test",
+          "description": "A waste product filtered by kidneys; elevated levels indicate decreased kidney function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Chloride Test",
+          "slug": "chloride-test",
+          "description": "An electrolyte that helps maintain fluid balance; abnormal levels may indicate kidney problems or dehydration.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Sodium Test",
+          "slug": "sodium-test",
+          "description": "An electrolyte that helps maintain fluid balance; abnormal levels may indicate kidney problems or dehydration.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Estimated Glomerular Filtration Rate (eGFR) Testing",
+          "slug": "estimated-glomerular-filtration-rate-egfr-test",
+          "description": "Estimates how well kidneys filter waste; lower values indicate decreased kidney function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Blood Urea Nitrogen (BUN) Testing",
+          "slug": "blood-urea-nitrogen-bun-test",
+          "description": "A waste product filtered by kidneys; elevated levels indicate decreased kidney function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Urine Color",
+          "slug": "urine-color-test",
+          "description": "Reflects hydration status, urine concentration, and overall fluid balance.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Urine Appearance",
+          "slug": "urine-appearance-test",
+          "description": "Shows urine clarity and color, reflecting hydration and internal balance.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Urine Specific Gravity",
+          "slug": "urine-specific-gravity-test",
+          "description": "Reflects urine concentration, hydration status, and kidney function.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Urinary pH",
+          "slug": "urinary-ph-test",
+          "description": "Measures how acidic or alkaline urine is, reflecting acid-base balance.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Urinary Glucose",
+          "slug": "urinary-glucose-test",
+          "description": "Measures glucose in urine, reflecting recent blood sugar levels.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Bilirubin, Urine",
+          "slug": "bilirubin-urine-test",
+          "description": "Measures bilirubin pigment in urine, reflecting liver or bile flow.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Ketones, Urine",
+          "slug": "ketones-urine-test",
+          "description": "Shows ketones from fat-burning as an alternative fuel.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Occult Blood, Urine",
+          "slug": "occult-blood-urine-test",
+          "description": "Measures tiny amounts of blood in urine.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Protein, Urine",
+          "slug": "protein-urine-test",
+          "description": "Measures protein leakage in urine, reflecting kidney filtering health.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Nitrite, Urine",
+          "slug": "nitrite-urine-test",
+          "description": "Measures urine nitrites linked to certain urinary bacteria.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Leukocyte Esterase, Urine",
+          "slug": "leukocyte-esterase-urine-test",
+          "description": "Measures white blood cell enzyme levels in urine.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "WBC, Urine",
+          "slug": "wbc-urine-test",
+          "description": "Measures white blood cells in urine, reflecting urinary tract inflammation.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "RBC, Urine",
+          "slug": "rbc-urine-test",
+          "description": "Measures red blood cells in urine, reflecting urinary tract lining integrity.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Epithelial Cells, Urine",
+          "slug": "epithelial-cells-urine-test",
+          "description": "Measures shed urinary tract cells, reflecting urinary health or contamination.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Bacteria, Urine",
+          "slug": "bacteria-urine-test",
+          "description": "Measures bacteria present in urine, linked to urinary tract infection.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inflammation",
+      "slug": "inflammation",
+      "biomarkers": [
+        {
+          "name": "High-Sensitivity C-Reactive Protein (hs-CRP) Testing",
+          "slug": "high-sensitivity-c-reactive-protein-hs-crp-test",
+          "description": "A marker of inflammation; elevated levels increase risk of heart disease and other inflammatory conditions.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Erythrocyte Sedimentation Rate (ESR) Testing",
+          "slug": "erythrocyte-sedimentation-rate-esr-test",
+          "description": "Measures how quickly red blood cells settle; elevated levels indicate inflammation or infection.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Systemic Immune-Inflammation Index (SII) Testing",
+          "slug": "systemic-immune-inflammation-index-sii-test",
+          "description": "Composite marker using platelets, neutrophils, and lymphocytes; reflects immune imbalance and systemic inflammation linked to cardiovascular risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Ferritin-to-Albumin Ratio (FAR) Testing",
+          "slug": "ferritin-to-albumin-ratio-far-test",
+          "description": "Compares iron storage protein to albumin; helps assess nutritional status and inflammatory burden in complex clinical scenarios.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Monocyte-to-HDL Ratio (MHR) Testing",
+          "slug": "monocyte-to-hdl-ratio-mhr-test",
+          "description": "Balances immune activation against lipid protection; elevated ratios indicate increased inflammation and reduced cardiovascular protection.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "CRP / Albumin Ratio (CAR) Testing",
+          "slug": "crp-albumin-ratio-car-test",
+          "description": "Compares inflammatory marker to nutritional protein; elevated ratios indicate systemic inflammation with potential nutritional compromise.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Platelet-to-Lymphocyte Ratio Test",
+          "slug": "platelet-to-lymphocyte-ratio-test",
+          "description": "Reflects inflammatory and thrombotic status; elevated ratios may indicate increased cardiovascular risk and systemic inflammation.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Systemic Inflammation Response Index (SIRI) Testing",
+          "slug": "systemic-inflammation-response-index-siri-test",
+          "description": "Composite inflammatory marker using neutrophils, monocytes, and lymphocytes; indicates systemic inflammatory burden.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Body Composition",
+      "slug": "body-composition",
+      "biomarkers": [
+        {
+          "name": "Insulin-Like Growth Factor 1 (IGF-1) Testing",
+          "slug": "insulin-like-growth-factor-1-igf-1-test",
+          "description": "A hormone that promotes growth and tissue repair; levels reflect growth hormone activity.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aging",
+      "slug": "aging",
+      "biomarkers": [
+        {
+          "name": "Health Score Test",
+          "slug": "health-score-test",
+          "description": "Feeling run down, foggy, or just off? Could a comprehensive look at your health help you understand why?\nYour Health Score combines key biomarkers into a single number to show how your body is functioning. It simplifies complex data into a clear status update.\nTracking this score helps you understand the root of your fatigue without the guesswork. You gain the insight needed to improve your vitality and feel your best.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DNA Health",
+      "slug": "dna-health",
+      "biomarkers": [
+        {
+          "name": "Vitamin B12 Test",
+          "slug": "vitamin-b12-test",
+          "description": "Essential vitamin for nerve function and red blood cell formation; deficiency causes anemia and neurological problems.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Homocysteine Test",
+          "slug": "homocysteine-test",
+          "description": "An amino acid that can damage blood vessels; elevated levels increase risk of heart disease and stroke.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "pink",
+              "name": "Methylation Panel"
+            }
+          ]
+        },
+        {
+          "name": "Folate Test",
+          "slug": "folate-test",
+          "description": "A B vitamin essential for DNA synthesis and red blood cell formation; deficiency causes anemia and birth defects.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "gray",
+              "name": "Nutrient & Antioxidant Panel"
+            }
+          ]
+        },
+        {
+          "name": "Folate, RBC Test",
+          "slug": "folate-rbc-test",
+          "description": "Shows long-term folate stores for DNA and cellular health.",
+          "panels": [
+            {
+              "color": "pink",
+              "name": "Methylation Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin B6 (Plasma) Testing",
+          "slug": "vitamin-b6-plasma-test",
+          "description": "Supports metabolism, energy, and neurotransmitter production.",
+          "panels": [
+            {
+              "color": "pink",
+              "name": "Methylation Panel"
+            }
+          ]
+        },
+        {
+          "name": "Methylmalonic Acid (MMA) Testing",
+          "slug": "methylmalonic-acid-mma-test",
+          "description": "Detects vitamin B12 deficiency at the cellular level.",
+          "panels": [
+            {
+              "color": "pink",
+              "name": "Methylation Panel"
+            }
+          ]
+        },
+        {
+          "name": "Vitamin B12 (Cobalamin) Testing",
+          "slug": "vitamin-b12-cobalamin-test",
+          "description": "Supports energy, nerve function, and red blood cell health.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "pink",
+              "name": "Methylation Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Energy",
+      "slug": "energy",
+      "biomarkers": [
+        {
+          "name": "Ferritin Test",
+          "slug": "ferritin-test",
+          "description": "A protein that stores iron; low levels indicate iron deficiency while high levels may indicate iron overload or inflammation.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Cortisol Test",
+          "slug": "cortisol-test",
+          "description": "The stress hormone; abnormal levels may indicate adrenal disorders or chronic stress.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Total Iron Binding Capacity (TIBC) Testing",
+          "slug": "total-iron-binding-capacity-tibc-test",
+          "description": "Measures the blood's capacity to bind iron; helps diagnose iron deficiency or overload.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Iron Saturation Test",
+          "slug": "iron-saturation-test",
+          "description": "The percentage of iron-binding sites that are occupied; helps assess iron status and storage.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Iron, Total Test",
+          "slug": "iron-total-test",
+          "description": "Essential mineral for oxygen transport; low levels cause anemia while high levels may indicate iron overload.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "BMI Test",
+          "slug": "bmi-test",
+          "description": "Struggling with low energy or joint pain, and wondering if checking your BMI could help?\nBMI uses your height and weight to indicate if you are in a healthy range. It gives you a clear starting point.\nMeasuring this helps reveal if weight is contributing to your discomfort. You can then take steps to feel lighter and more energetic.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Immune System",
+      "slug": "immune-system",
+      "biomarkers": [
+        {
+          "name": "White Blood Cells (WBC) Testing",
+          "slug": "white-blood-cells-wbc-test",
+          "description": "Immune system cells that help fight infections and diseases; abnormal levels may indicate infection, immune disorders, or blood cancers.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Eosinophils, Absolute Test",
+          "slug": "eosinophils-absolute-test",
+          "description": "The actual number of eosinophils in your blood; useful for diagnosing allergic conditions and parasitic infections.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Lymphocytes, Absolute Test",
+          "slug": "lymphocytes-absolute-test",
+          "description": "The actual number of lymphocytes in your blood; important for evaluating immune system health.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Lymphocytes Test",
+          "slug": "lymphocytes-test",
+          "description": "White blood cells that fight viral infections and produce antibodies; levels help assess immune system function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Basophils, Absolute Test",
+          "slug": "basophils-absolute-test",
+          "description": "The actual number of basophils in your blood; helps evaluate allergic reactions and certain blood conditions.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Monocytes, Absolute Test",
+          "slug": "monocytes-absolute-test",
+          "description": "The actual number of monocytes in your blood; helps assess immune response and inflammatory conditions.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Neutrophils Test",
+          "slug": "neutrophils-test",
+          "description": "White blood cells that fight bacterial infections; elevated levels often indicate bacterial infection or inflammation.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Monocytes Test",
+          "slug": "monocytes-test",
+          "description": "White blood cells that fight infections and remove dead cells; elevated levels may indicate chronic infection or inflammation.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Eosinophils Test",
+          "slug": "eosinophils-test",
+          "description": "White blood cells that fight parasites and are involved in allergic reactions; elevated levels may indicate allergies or parasitic infections.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Basophils Test",
+          "slug": "basophils-test",
+          "description": "White blood cells involved in allergic reactions and inflammation; elevated levels may indicate allergic conditions or blood disorders.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Neutrophils, Absolute Test",
+          "slug": "neutrophils-absolute-test",
+          "description": "The actual number of neutrophils in your blood; helps assess immune function and infection risk.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Lymphocyte-to-Monocyte Ratio (LMR) Testing",
+          "slug": "lymphocyte-to-monocyte-ratio-lmr-test",
+          "description": "Reflects immune balance and inflammatory status; lower ratios may indicate chronic inflammation or immune dysfunction.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Platelet-to-WBC Ratio Test",
+          "slug": "platelet-to-wbc-ratio-test",
+          "description": "Compares platelet count to total white blood cells; provides insight into hematologic balance and potential inflammatory states.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Neutrophil-to-Lymphocyte Ratio Test",
+          "slug": "neutrophil-to-lymphocyte-ratio-test",
+          "description": "A marker of systemic inflammation and immune stress; elevated ratios are associated with increased cardiovascular risk and mortality.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Monocyte-to-Lymphocyte Ratio (MLR) Testing",
+          "slug": "monocyte-to-lymphocyte-ratio-mlr-test",
+          "description": "Reflects balance between innate and adaptive immunity; elevated ratios may indicate chronic inflammatory conditions.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Neutrophil-to-Lymphocyte & Platelet Ratio (NLPR) Testing",
+          "slug": "neutrophil-to-lymphocyte-and-platelet-ratio-nlpr-test",
+          "description": "Advanced inflammatory marker combining multiple immune cell types; reflects complex immune-inflammatory interactions.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "dsDNA antibody Test",
+          "slug": "dsdna-antibody-test",
+          "description": "Detects antibodies highly specific to lupus; rising levels often indicate increased disease activity, especially in the kidneys.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Rheumatoid factor",
+          "slug": "rheumatoid-factor-test",
+          "description": "Helps identify rheumatoid arthritis or chronic joint inflammation.",
+          "panels": [
+            {
+              "color": "red",
+              "name": "Autoimmunity & Celiac Panel"
+            }
+          ]
+        },
+        {
+          "name": "CCP antibody Test",
+          "slug": "ccp-antibody-test",
+          "description": "Identifies antibodies strongly tied to rheumatoid arthritis risk and progression.",
+          "panels": [
+            {
+              "color": "red",
+              "name": "Autoimmunity & Celiac Panel"
+            }
+          ]
+        },
+        {
+          "name": "ANA (antinuclear antibody) Testing",
+          "slug": "ana-antinuclear-antibody-test",
+          "description": "Screens for autoimmune activity often associated with lupus and related connective tissue diseases.",
+          "panels": [
+            {
+              "color": "red",
+              "name": "Autoimmunity & Celiac Panel"
+            }
+          ]
+        },
+        {
+          "name": "Celiac Disease Comprehensive Panel Testing",
+          "slug": "celiac-disease-comprehensive-panel-test",
+          "description": "Screens for antibodies that indicate celiac-related autoimmunity and gluten-triggered immune activity.",
+          "panels": [
+            {
+              "color": "red",
+              "name": "Autoimmunity & Celiac Panel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sex Hormones",
+      "slug": "sex-hormones",
+      "biomarkers": [
+        {
+          "name": "Testosterone, Total Test",
+          "slug": "testosterone-total-test",
+          "description": "The primary male hormone; affects muscle mass, bone density, mood, and sexual function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Sex Hormone Binding Globulin (SHBG) Testing",
+          "slug": "sex-hormone-binding-globulin-shbg-test",
+          "description": "A protein that binds sex hormones; affects the amount of active hormones available to tissues.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Testosterone, Bioavailable Test",
+          "slug": "testosterone-bioavailable-test",
+          "description": "Testosterone that is available for use by tissues; includes free and loosely bound testosterone.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "DHEA Sulfate (DHEA-S) Testing",
+          "slug": "dhea-sulfate-dhea-s-test",
+          "description": "A hormone precursor that declines with age; low levels may affect energy, mood, and immune function.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Testosterone, Free Test",
+          "slug": "testosterone-free-test",
+          "description": "The active form of testosterone not bound to proteins; more accurately reflects hormone activity.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Follicle Stimulating Hormone (FSH) Testing",
+          "slug": "follicle-stimulating-hormone-fsh-test",
+          "description": "A hormone that regulates reproductive function; levels help assess fertility and menopause status.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Prostate Specific Antigen (PSA), Free Testing",
+          "slug": "prostate-specific-antigen-psa-free-test",
+          "description": "The unbound form of PSA; helps distinguish between benign and malignant prostate conditions.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Progesterone Test",
+          "slug": "progesterone-test",
+          "description": "A hormone important for menstrual cycle and pregnancy; levels help assess reproductive health.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Prostate Specific Antigen (PSA), Total Testing",
+          "slug": "prostate-specific-antigen-psa-total-test",
+          "description": "A protein produced by the prostate; elevated levels may indicate prostate problems including cancer.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            }
+          ]
+        },
+        {
+          "name": "Luteinizing Hormone (LH) Testing",
+          "slug": "luteinizing-hormone-lh-test",
+          "description": "A hormone that triggers ovulation and testosterone production; helps assess reproductive health.",
+          "panels": [
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Prolactin Test",
+          "slug": "prolactin-test",
+          "description": "A hormone that stimulates milk production; abnormal levels may affect fertility and sexual function.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Free Androgen Index (FAI) Testing",
+          "slug": "free-androgen-index-fai-test",
+          "description": "Estimates biologically active testosterone by comparing total testosterone to SHBG; useful for assessing androgen status in both men and women.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "Testosterone / Estradiol (T:E2) Testing",
+          "slug": "testosterone-estradiol-t-e2-test",
+          "description": "Reflects hormonal balance between androgens and estrogens; imbalances are linked to cardiovascular risk, inflammation, and metabolic dysfunction.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        },
+        {
+          "name": "17-hydroxyprogesterone (17-OHP) Test",
+          "slug": "17-hydroxyprogesterone-test",
+          "description": "Evaluates adrenal and ovarian hormone balance affecting cycles and fertility.",
+          "panels": [
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Estradiol",
+          "slug": "estradiol-ultrasensitive-test",
+          "description": "Measures estrogen levels to assess ovarian function and hormone balance.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            },
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Mercury, blood Test",
+          "slug": "mercury-blood-test",
+          "description": "Screens for mercury exposure that may affect hormones and fertility.",
+          "panels": [
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Cardio IQ Insulin Test",
+          "slug": "cardio-iq-insulin-test",
+          "description": "Measures fasting insulin to assess blood sugar balance and metabolic health.",
+          "panels": [
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Thyroid antibodies Test",
+          "slug": "thyroid-antibodies-test",
+          "description": "Detects thyroid autoimmunity that can impact metabolism and fertility.",
+          "panels": [
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Glucose, plasma Test",
+          "slug": "glucose-plasma-test",
+          "description": "Checks blood sugar levels related to energy and metabolic balance.",
+          "panels": [
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "AMH (anti-M\u00fcllerian hormone) Testing",
+          "slug": "amh-anti-m-llerian-hormone-test",
+          "description": "Key marker of ovarian reserve and remaining egg count.",
+          "panels": [
+            {
+              "color": "amber",
+              "name": "Advanced Panel"
+            },
+            {
+              "color": "purple",
+              "name": "Female Fertility Panel"
+            }
+          ]
+        },
+        {
+          "name": "Ultra-Sensitive Estradiol Test",
+          "slug": "ultra-sensitive-estradiol",
+          "description": "Measures estrogen levels to assess ovarian function and hormone balance.",
+          "panels": [
+            {
+              "color": "orange",
+              "name": "Baseline Panel"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

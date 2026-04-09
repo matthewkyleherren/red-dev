@@ -1,0 +1,1018 @@
+{
+  "categories": [
+    "Heart & Vascular Health",
+    "Liver Health",
+    "Kidney Health",
+    "Sex Hormones",
+    "Metabolic Health",
+    "Nutrients",
+    "Inflammation",
+    "Thyroid Health",
+    "Energy",
+    "Immune System",
+    "Body Composition",
+    "DNA Health"
+  ],
+  "biomarkers": [
+    {
+      "name": "17-hydroxyprogesterone (17-OHP) Test",
+      "slug": "17-hydroxyprogesterone-test",
+      "category": "Sex Hormones",
+      "panelName": "Female Fertility & Hormone Panel",
+      "panelColor": "#ff68de",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": true
+    },
+    {
+      "name": "2-3-4 Methylhippuric Acid (2,-3-,4-MHA)",
+      "slug": "2-3-4-methylhippuric-acid-2-3-4-mha",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "2,4-Dichlorophenoxyacetic Acid (2,4-D)",
+      "slug": "24-dichlorophenoxyacetic-acid-24-d",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "2-Hydroxyethyl Mercapturic Acid (HEMA)",
+      "slug": "2-hydroxyethyl-mercapturic-acid-hema",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "3-Phenoxybenzoic Acid (3-PBA)",
+      "slug": "3-phenoxybenzoic-acid-3-pba",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Abundance index",
+      "slug": "abundance-index",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Acetate",
+      "slug": "acetate",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Acinetobacter baumannii",
+      "slug": "acinetobacter-baumannii",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Actinobacteriota",
+      "slug": "actinobacteriota",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Adiponectin Test",
+      "slug": "adiponectin-test",
+      "category": "Metabolic Health",
+      "panelName": "Metabolic Health Panel",
+      "panelColor": "#938700",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Aflatoxin M1 (AFM1)",
+      "slug": "aflatoxin-m1-afm1",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Akkermansia (genus)",
+      "slug": "akkermansia-genus",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Alanine Aminotransferase (ALT) Testing",
+      "slug": "alanine-aminotransferase-alt-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Albumin/Globulin Ratio Testing",
+      "slug": "albumin-globulin-ratio-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Albumin Test",
+      "slug": "albumin-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Alkaline Phosphatase (ALP) Testing",
+      "slug": "alkaline-phosphatase-alp-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Aluminum (Al)",
+      "slug": "aluminum-al",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "AMH (anti-Müllerian hormone) Testing",
+      "slug": "amh-anti-m-llerian-hormone-test",
+      "category": "Sex Hormones",
+      "panelName": "Female Fertility & Hormone Panel",
+      "panelColor": "#ff68de",
+      "isAdvanced": true,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Ammonia",
+      "slug": "ammonia",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "ANA (antinuclear antibody) Testing",
+      "slug": "ana-antinuclear-antibody-test",
+      "category": "Immune System",
+      "panelName": "Autoimmunity Panel",
+      "panelColor": "#4b90ff",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Antimony (Sb)",
+      "slug": "antimony-sb",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Apolipoprotein B (ApoB) Testing",
+      "slug": "apolipoprotein-b-apob-test",
+      "category": "Heart & Vascular Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Arsenic (As)",
+      "slug": "arsenic-as",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Aspartate Aminotransferase (AST) Testing",
+      "slug": "aspartate-aminotransferase-ast-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Aspergillus",
+      "slug": "aspergillus",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Atherogenic Coefficient Test",
+      "slug": "atherogenic-coefficient-test",
+      "category": "Heart & Vascular Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Atherogenic Index of Plasma (AIP) Testing",
+      "slug": "atherogenic-index-of-plasma-aip-test",
+      "category": "Heart & Vascular Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Atrazine Mercapturate (AM)",
+      "slug": "atrazine-mercapturate-am",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bacteria, Urine",
+      "slug": "bacteria-urine-test",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": true,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bacteroides",
+      "slug": "bacteroides",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bacteroides fragilis",
+      "slug": "bacteroides-fragilis",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bacteroidota",
+      "slug": "bacteroidota",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Barium (Ba)",
+      "slug": "barium-ba",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Basophils, Absolute Test",
+      "slug": "basophils-absolute-test",
+      "category": "Immune System",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Basophils Test",
+      "slug": "basophils-test",
+      "category": "Immune System",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Beryllium (Be)",
+      "slug": "beryllium-be",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Beta-glucuronidase capacity",
+      "slug": "beta-glucuronidase-capacity",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bifidobacterium adolescentis",
+      "slug": "bifidobacterium-adolescentis",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bifidobacterium animalis",
+      "slug": "bifidobacterium-animalis",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bifidobacterium (genus)",
+      "slug": "bifidobacterium-genus",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bilirubin, Direct Test",
+      "slug": "bilirubin-direct-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bilirubin, Indirect Test",
+      "slug": "bilirubin-indirect-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bilirubin-to-Albumin Ratio (BAR) Testing",
+      "slug": "bilirubin-to-albumin-ratio-bar-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bilirubin, Total Test",
+      "slug": "bilirubin-total-test",
+      "category": "Liver Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bilirubin, Urine",
+      "slug": "bilirubin-urine-test",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": true,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bismuth (Bi)",
+      "slug": "bismuth-bi",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bisphenol A (BPA)",
+      "slug": "bisphenol-a-bpa",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Bisphenol S (BPS)",
+      "slug": "bisphenol-s-bps",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Blastocystis",
+      "slug": "blastocystis",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Blautia",
+      "slug": "blautia",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Blood Urea Nitrogen (BUN) Testing",
+      "slug": "blood-urea-nitrogen-bun-test",
+      "category": "Kidney Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "BMI Test",
+      "slug": "bmi-test",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Branched Chain Amino Acids",
+      "slug": "branched-chain-amino-acids",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "BUN/Creatinine Ratio Testing",
+      "slug": "bun-creatinine-ratio-test",
+      "category": "Kidney Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Butylparaben (BuP)",
+      "slug": "butylparaben-bup",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Butyrate",
+      "slug": "butyrate",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cadmium (Cd)",
+      "slug": "cadmium-cd",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Calcium Test",
+      "slug": "calcium-test",
+      "category": "Kidney Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Campylobacter",
+      "slug": "campylobacter",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Candida",
+      "slug": "candida",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Carbon Dioxide (CO2) Testing",
+      "slug": "carbon-dioxide-co2-test",
+      "category": "Kidney Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cardio IQ Insulin Resistance Test",
+      "slug": "cardio-iq-insulin-resistance-test",
+      "category": "Metabolic Health",
+      "panelName": "Metabolic Health Panel",
+      "panelColor": "#938700",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cardio IQ Insulin Test",
+      "slug": "cardio-iq-insulin-test",
+      "category": "Sex Hormones",
+      "panelName": "Female Fertility & Hormone Panel",
+      "panelColor": "#ff68de",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "CCP antibody Test",
+      "slug": "ccp-antibody-test",
+      "category": "Immune System",
+      "panelName": "Autoimmunity Panel",
+      "panelColor": "#4b90ff",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Celiac Disease Comprehensive Panel Testing",
+      "slug": "celiac-disease-comprehensive-panel-test",
+      "category": "Immune System",
+      "panelName": "Autoimmunity Panel",
+      "panelColor": "#4b90ff",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cellulose",
+      "slug": "cellulose",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cesium (Cs)",
+      "slug": "cesium-cs",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Chaetoglobosin A (CHA)",
+      "slug": "chaetoglobosin-a-cha",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Chitin",
+      "slug": "chitin",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Chloride Test",
+      "slug": "chloride-test",
+      "category": "Kidney Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cholesterol/HDL Ratio Testing",
+      "slug": "cholesterol-hdl-ratio-test",
+      "category": "Heart & Vascular Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cholesterol, Total Test",
+      "slug": "cholesterol-total-test",
+      "category": "Heart & Vascular Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Citrinin (Dihydrocitrinone DHC)",
+      "slug": "citrinin-dihydrocitrinone-dhc",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Clostridioides difficile",
+      "slug": "clostridioides-difficile",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Clostridium perfringens",
+      "slug": "clostridium-perfringens",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Corrected Calcium (Albumin-adjusted) Testing",
+      "slug": "corrected-calcium-albumin-adjusted-test",
+      "category": "Metabolic Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cortisol Test",
+      "slug": "cortisol-test",
+      "category": "Energy",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Creatinine Test",
+      "slug": "creatinine-test",
+      "category": "Kidney Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "CRP / Albumin Ratio (CAR) Testing",
+      "slug": "crp-albumin-ratio-car-test",
+      "category": "Inflammation",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": true,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cryptococcus",
+      "slug": "cryptococcus",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cryptosporidium",
+      "slug": "cryptosporidium",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Cyclospora cayetanensis",
+      "slug": "cyclospora-cayetanensis",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "DHEA Sulfate (DHEA-S) Testing",
+      "slug": "dhea-sulfate-dhea-s-test",
+      "category": "Sex Hormones",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Diethylphosphate (DEP)",
+      "slug": "diethylphosphate-dep",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Diphenyl Phosphate (DPP)",
+      "slug": "diphenyl-phosphate-dpp",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "dsDNA antibody Test",
+      "slug": "dsdna-antibody-test",
+      "category": "Immune System",
+      "panelName": "Autoimmunity Panel",
+      "panelColor": "#4b90ff",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Enniatin B (ENB)",
+      "slug": "enniatin-b-enb",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Entamoeba dispar",
+      "slug": "entamoeba-dispar",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Entamoeba histolytica",
+      "slug": "entamoeba-histolytica",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Enterobacteriaceae",
+      "slug": "enterobacteriaceae",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Enterococcus faecalis",
+      "slug": "enterococcus-faecalis",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Enterococcus faecium",
+      "slug": "enterococcus-faecium",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Eosinophils, Absolute Test",
+      "slug": "eosinophils-absolute-test",
+      "category": "Immune System",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Eosinophils Test",
+      "slug": "eosinophils-test",
+      "category": "Immune System",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Epithelial Cells, Urine",
+      "slug": "epithelial-cells-urine-test",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": true,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Erythrocyte Sedimentation Rate (ESR) Testing",
+      "slug": "erythrocyte-sedimentation-rate-esr-test",
+      "category": "Inflammation",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": true,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Escherichia coli",
+      "slug": "escherichia-coli",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Escherichia dysenteriae",
+      "slug": "escherichia-dysenteriae",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Escherichia flexneri",
+      "slug": "escherichia-flexneri",
+      "category": "",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    },
+    {
+      "name": "Estimated Average Glucose (mg/dL) Testing",
+      "slug": "estimated-average-glucose-mg-dl-test",
+      "category": "Metabolic Health",
+      "panelName": "",
+      "panelColor": "",
+      "isAdvanced": false,
+      "isDerived": false,
+      "isPanelVisible": false
+    }
+  ]
+}
