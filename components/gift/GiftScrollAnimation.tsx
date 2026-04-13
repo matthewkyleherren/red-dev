@@ -62,7 +62,7 @@ function OpacityGroup1() {
         style={{ opacity: 1, visibility: 'visible' }}
       />
       <img
-        src="/images/site/6919fc9494378018ae9f1285_dts_the_leader__daniel_faro%CC%80_photos_id9601.avif"
+        src="/images/site/6919fc9494378018ae9f1285_dts_the_leader__daniel_far%C3%B2_photos_id9601.avif"
         alt=""
         data-opacity-group="1"
         className="holiday-gift_perspective-child is-3"
@@ -116,11 +116,11 @@ function OpacityGroup3() {
     <div className="holiday-gift_perspective-wrap-1" style={{ visibility: 'visible' }}>
       <img
         className="holiday-gift_perspective-child is-10"
-        src="/images/site/6919fca4ea07fc48ac3c8a73_dts_irl_escapism_daniel_faro%CC%80_photos_id8794%201.avif"
+        src="/images/site/6919fca4ea07fc48ac3c8a73_dts_irl_escapism_daniel_far%C3%B2_photos_id8794%201.avif"
         alt=""
         sizes="(max-width: 1170px) 100vw, 1170px"
         data-opacity-group="3"
-        srcSet="/images/site/6919fca4ea07fc48ac3c8a73_dts_irl_escapism_daniel_faro%CC%80_photos_id8794%201-p-500.avif 500w, /images/site/6919fca4ea07fc48ac3c8a73_dts_irl_escapism_daniel_faro%CC%80_photos_id8794%201.avif 1170w"
+        srcSet="/images/site/6919fca4ea07fc48ac3c8a73_dts_irl_escapism_daniel_far%C3%B2_photos_id8794%201-p-500.avif 500w, /images/site/6919fca4ea07fc48ac3c8a73_dts_irl_escapism_daniel_far%C3%B2_photos_id8794%201.avif 1170w"
         style={{ opacity: 1, visibility: 'visible' }}
       />
       <img
