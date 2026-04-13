@@ -6,30 +6,30 @@ import Link from 'next/link';
 const slides = [
   {
     bgSrc: '/images/site/68b8b8b83d5c5f0ce059b2d0_bg-image%201.avif',
-    unit: 'ug/ dL',
-    value: '23',
-    dataEnd: '23',
-    label: 'Iron',
+    unit: 'nm',
+    value: '630',
+    dataEnd: '630',
+    label: 'Red light',
     uiBottom: '/images/site/68c2e2d78f46e6b64d06cb77_frame%201597885299%20(2).avif',
     uiBottomSrcSet: '/images/site/68c2e2d78f46e6b64d06cb77_frame%201597885299%20(2)-p-500.avif 500w, /images/site/68c2e2d78f46e6b64d06cb77_frame%201597885299%20(2).avif 1120w',
     uiBottomAlt: 'Text with "Goal: Reduce fatigue," suggesting oral bisglycinate 25-65 mg daily and increased vitamin C intake.',
   },
   {
     bgSrc: '/images/site/68b8b8b89e5bebda23242696_person%20sitting%20on%20rocks%202.avif',
-    unit: 'mg/L',
-    value: '5.6',
-    dataEnd: '5.6',
-    label: 'hs-CRP',
+    unit: 'nm',
+    value: '660',
+    dataEnd: '660',
+    label: 'Deep red',
     uiBottom: '/images/site/68b8a31ebb1818f3df1c068d_frame%201597885298%20(1).avif',
     uiBottomSrcSet: '/images/site/68b8a31ebb1818f3df1c068d_frame%201597885298%20(1)-p-500.avif 500w, /images/site/68b8a31ebb1818f3df1c068d_frame%201597885298%20(1).avif 1401w',
     uiBottomAlt: 'Text showing a goal to reduce inflammation with two bullet points: cut refined carbs and seed oils, and take fish oil 2-3 g/day EPA+DHA.',
   },
   {
     bgSrc: '/images/site/68b8b8b806644768b9c3f8b6_middle%20aged%20picture%20(7)%201.avif',
-    unit: 'ng/dL',
-    value: '493',
-    dataEnd: '493',
-    label: 'Testosterone',
+    unit: 'nm',
+    value: '850',
+    dataEnd: '850',
+    label: 'Near-infrared',
     uiBottom: '/images/site/68b8a31ef0aca94ee71424f2_frame%201597885298%20(2).avif',
     uiBottomSrcSet: '/images/site/68b8a31ef0aca94ee71424f2_frame%201597885298%20(2)-p-500.avif 500w, /images/site/68b8a31ef0aca94ee71424f2_frame%201597885298%20(2).avif 1401w',
     uiBottomAlt: 'Text stating goals to increase muscle: strength train 2-3 times a week, take 300-400 mg magnesium daily.',
@@ -64,11 +64,11 @@ export default function ClearMobileSection() {
       <div className="page-padding">
         <div className="slider_component">
           <div className="title_row">
-            <h2 className="heading-style-h1">Just test to make it clear</h2>
-            <p>Lab testing can reveal the causes of symptoms and detect disease. Get answers you deserve to know with Superpower.</p>
+            <h2 className="heading-style-h1">Light that works beneath the surface</h2>
+            <p>Red and near-infrared wavelengths penetrate deep into your skin, muscles and tissue — stimulating cellular repair, reducing inflammation, and restoring balance from the inside out.</p>
             <div className="button_row">
               <Link href="/checkout" className="button is-large is-icon w-inline-block">
-                <div>Join Today</div>
+                <div>Book your experience</div>
                 <div className="icon-embed-regular w-embed">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M9 18L15 12L9 6" stroke="#FAFAFA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -77,7 +77,7 @@ export default function ClearMobileSection() {
               </Link>
             </div>
             <div className="button-group is-right hide-mobile-landscape">
-              <Link href="/checkout" className="button is-large w-button">Get my plan</Link>
+              <Link href="/how-it-works" className="button is-large w-button">Learn how it works</Link>
             </div>
           </div>
         </div>

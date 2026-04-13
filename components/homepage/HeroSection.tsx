@@ -48,9 +48,9 @@ export default function HeroSection() {
                   <div className="container-large z-index-2">
                     <div className="home-hero_content max-width-medium home-hero_left-align">
                       <div className="home-hero_text-wrapper">
-                        <h1 className="display-heading-style">Unlock your new health intelligence</h1>
+                        <h1 className="display-heading-style">Where red light meets mindfulness</h1>
                         <p className="text-size-large">
-                          100+ biomarkers. Every year. Detect early signs of 1,000+ conditions. All for only $17/month
+                          Switzerland&apos;s first elite red light therapy studio. In the heart of Zurich.
                         </p>
                       </div>
                       <div className="home-hero_checklist">
@@ -60,7 +60,7 @@ export default function HeroSection() {
                               <path d="M12.3342 4.12268L6.00824 10.4486L3.13281 7.5732" stroke="white" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                           </div>
-                          <div className="text-size-small">It starts with 100+ biomarkers</div>
+                          <div className="text-size-small">Full-body red light therapy</div>
                         </div>
                         <div className="hero_checklist-row">
                           <div className="icon-embed-xsmall w-embed">
@@ -68,7 +68,7 @@ export default function HeroSection() {
                               <path d="M12.3342 4.12268L6.00824 10.4486L3.13281 7.5732" stroke="white" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                           </div>
-                          <div className="text-size-small">A medical team in your pocket</div>
+                          <div className="text-size-small">Guided mindfulness meditation</div>
                         </div>
                         <div className="hero_checklist-row">
                           <div className="icon-embed-xsmall w-embed">
@@ -76,13 +76,13 @@ export default function HeroSection() {
                               <path d="M12.3342 4.12268L6.00824 10.4486L3.13281 7.5732" stroke="white" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                           </div>
-                          <div className="text-size-small">A plan that evolves with you</div>
+                          <div className="text-size-small">Benefits that compound over time</div>
                         </div>
                       </div>
                       <div className="margin-top margin-medium">
                         <div className="button_row">
                           <Link href="/checkout" className="button is-large is-icon w-inline-block">
-                            <div>Join Today</div>
+                            <div>Book your experience</div>
                             <div className="icon-embed-regular w-embed">
                               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9 18L15 12L9 6" stroke="#FAFAFA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -91,17 +91,14 @@ export default function HeroSection() {
                           </Link>
                         </div>
                       </div>
-                      <img
-                        src="/images/site/689c37321e74752df5514537_hsa-fsa.svg"
-                        loading="lazy"
-                        alt=""
-                        className="hsa-wrapper"
-                      />
+                      {/* TODO: replace with red. Studio imagery */}
+                      {/* Original: HSA/FSA badge — removed for red. Studio */}
                     </div>
                   </div>
                 </div>
                 <div
                   className="home-hero_bg-video-wrapper"
+                  /* TODO: replace with red. Studio imagery */
                   style={{ backgroundImage: "url('/images/site/695c3e7cc0c9cb6396ba2a28_superpower-poster-hero1.webp')" }}
                 >
                   <div className="image_cover-absolute w-embed">

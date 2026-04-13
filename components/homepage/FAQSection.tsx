@@ -16,88 +16,70 @@ interface FAQGroup {
 
 const faqGroups: FAQGroup[] = [
   {
-    title: 'How it works',
+    title: 'About red light therapy',
     items: [
       {
-        question: 'What should I expect during a blood draw?',
+        question: 'What is red light therapy?',
         answerItems: [
-          'A trained phlebotomist will guide you through the process.',
-          'A tourniquet is placed on your arm, the site is cleaned, and a small needle is used to collect blood into one or more tubes.',
-          'Results are usually ready in about a week.',
-          'Most people feel only a quick pinch.',
-          'The needle is removed, gentle pressure is applied, and a bandage is placed.',
+          'Red light therapy (RLT) is a non-invasive therapy that uses specific wavelengths of visible red light (630\u2013660nm) and near-infrared light (810\u2013850nm) to penetrate the skin and stimulate cellular function.',
+          'Applications include pain management, skin rejuvenation, muscle recovery, hormonal support, and cognitive health.',
         ],
       },
       {
-        question: 'How do I prepare for a blood draw?',
+        question: 'How does it work scientifically?',
         answerItems: [
-          'Drink plenty of water beforehand \u2014 hydration makes veins easier to find.',
-          'Wear loose sleeves so your arm is easy to access.',
-          "Follow any fasting instructions you've been given.",
-          "Let us know if you're on medications, have fainted before, or have needle anxiety.",
+          'Red and near-infrared light is absorbed by the mitochondria \u2014 the energy centres of your cells.',
+          'This stimulates cytochrome c oxidase, boosting ATP (adenosine triphosphate) production, which drives more efficient cellular function, reduced inflammation, and faster tissue repair.',
         ],
       },
       {
-        question: 'What should I do after my blood draw?',
+        question: 'How often should I come, and how quickly will I see results?',
         answerItems: [
-          'Press gently on the site for a few minutes.',
-          'Keep the bandage on for 4-6 hours.',
-          'Skip heavy lifting or strenuous exercise for the rest of the day.',
-          'Drink extra water to rehydrate.',
-          'Monitor the site for redness, swelling, or pain.',
+          'For best results, 2\u20134 sessions per week is recommended.',
+          'Many members notice immediate effects \u2014 calm, reduced tension, improved mood \u2014 after their first session.',
+          'Visible improvements to skin, sleep, and inflammation typically reveal themselves over 3\u20138 weeks of consistent use.',
         ],
       },
       {
-        question: 'How do I book a blood draw with Superpower?',
+        question: 'What should I wear? Do I need to prepare?',
         answerItems: [
-          'Your membership includes:',
-          'An annual full body test and report across 100+ biomarkers',
-          'A personalized action plan to optimize your biomarkers and reach your health goals',
-          'A dashboard to centralize your health data and track changes across a lifetime',
-          'Access to a health concierge for questions on your plan and help scheduling',
-          'Plus a marketplace of curated health products and services cheaper than amazon',
-          'Superpower tests over 100 biomarkers through our partnership with Quest Labs (~60 core markers) and our own specialty testing capabilities.',
-          'Many concierge clinics charge $10k \u2013 $100k for their services, we\u2019ve built technology to make the world\u2019s best healthcare as accessible as possible via an all-in-one membership.',
+          'The more skin you expose, the more light your body can absorb \u2014 but wear whatever makes you most comfortable.',
+          'The light produces no thermal heat, so there\u2019s no need to shower afterwards.',
+          'Remove makeup for maximum skin penetration, though the wavelengths will still penetrate through it.',
+          'You don\u2019t need to bring anything except yourself.',
         ],
-      },
-      {
-        question: 'Where can I take my blood test?',
-        answerItems: [
-          'Superpower is currently available in the following US states:',
-          'Alabama, Arizona, California, Colorado, Connecticut, Delaware, District of Columbia, Florida, Georgia, Idaho, Illinois, Indiana, Kansas, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, Ohio, Oklahoma, Oregon, Pennsylvania, South Carolina, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin',
-        ],
-        isRichText: true,
       },
     ],
   },
   {
-    title: 'Our testing',
+    title: 'Your experience',
     items: [
       {
-        question: 'Does Superpower replace my primary care provider?',
+        question: "What's the difference between the 11 and 22 minute experiences?",
         answerItems: [
-          'Superpower specializes in prevention-based testing and treatments and is not intended for emergency or immediate health issues.',
-          'While you will have a Superpower care team, your annual membership is designed to complement a primary care doctor if you have one, not replace them.',
-          'We are happy to help you share any test results with an outside provider to ensure you receive well-rounded medical care.',
+          'The 11-minute signature experience delivers our core full-body RLT session with a guided meditation.',
+          'The 22-minute extended experience offers deeper relaxation, more light exposure, and a longer meditation \u2014 ideal for recovery, stress relief, or simply treating yourself.',
         ],
       },
       {
-        question: 'How fast are blood test results and how do I read them?',
+        question: 'Can red light therapy improve my skin?',
         answerItems: [
-          'Your annual lab test panel takes about a week to process. We will text you as soon as they become available in your dashboard. Other types of tests may have different testing windows. The Superpower concierge is your own health assistant who helps answer your questions on your results, ensure smooth scheduling, coordination of any office-based tests and navigating you to interface with your care team.',
+          'Yes. RLT stimulates fibroblasts \u2014 the skin cells responsible for producing collagen and elastin \u2014 while improving blood circulation and reducing oxidative stress.',
+          'Consistent use leads to smoother texture, reduced fine lines, more even skin tone, and faster wound healing.',
         ],
       },
       {
-        question: 'Does Superpower accept health insurance?',
+        question: 'Does it help with sleep?',
         answerItems: [
-          'Superpower membership and products are all eligible for HSA/FSA funding.',
-          'We see Superpower like a gym membership for those committed to prevention and performance. Superpower is a bridge between wellness and healthcare. Health insurance traditionally focuses on reactive care whereas, at Superpower, we believe it\u2019s never too early to start looking out for your long-term health.',
+          'Red light helps regulate circadian rhythms and supports melatonin production \u2014 unlike blue light, which disrupts it.',
+          'The combination of RLT and guided meditation also calms the nervous system, making evening sessions particularly effective for winding down.',
         ],
       },
       {
-        question: 'What if I want more than 1 blood test per year?',
+        question: 'Is it safe during pregnancy?',
         answerItems: [
-          "Absolutely \u2014 you're not limited to just one. Your membership includes one comprehensive 100+ biomarker blood test each year, but if you'd like to track your progress more closely, you can add extra tests at any time. Each additional full-panel test come at an additional cost. You can order as many as you'd like throughout the year.",
+          'RLT is generally considered safe and non-invasive, but we recommend avoiding direct exposure over the abdomen or lower back during pregnancy.',
+          'Please consult your healthcare provider before booking.',
         ],
       },
     ],

@@ -20,40 +20,27 @@ export default function ActionPlans() {
       <div className="page-padding padding-section-large">
         <div className="container-large z-index-2">
           <div className="title_row" style={{ opacity: 1, visibility: 'visible' }}>
-            <h2>Compare our Action Plans</h2>
+            <h2>The science behind the light</h2>
             <p className="text-style-muted text-size-medium">
-              Testing is step one. Superpower helps you actually get healthier.
+              Photobiomodulation — safe, non-invasive technology that uses specific wavelengths of red and near-infrared light to interact with your mitochondria.
             </p>
           </div>
           <div className="action-plans_component" style={{ opacity: 1, visibility: 'visible' }}>
-            {/* Superpower Action Plan */}
+            {/* Step 1: Light penetration */}
             <div className="action-plans_item" style={{ opacity: 1, visibility: 'visible' }}>
               <div id="w-node-_044d7065-fa78-2adc-534e-d410c221ea76-c221ea6c" className="action-plans_left">
                 <div className="action-plans_logo-wrapper">
-                  <img
-                    src="/images/site/68756d60749a9d4add4303c6_superpower-logo.svg"
-                    loading="lazy"
-                    alt="The image shows a sign with the words &quot;Financial Review&quot; in bold, black letters."
-                    className="comparison1_logo is-bigger filter_inverted"
-                  />
-                  <div className="text-size-tiny">Action Plan</div>
+                  <div className="text-size-large">1. Light penetration</div>
                 </div>
-                <div className="button-group is-action-plans">
-                  <a
-                    href="/videos/marketing%20assets/ads%20export%20compressed.pdf"
-                    target="_blank"
-                    className="button is-icon background-color-black w-inline-block"
-                    rel="noopener noreferrer"
-                  >
-                    <div>View sample</div>
-                    <DownloadIcon />
-                  </a>
+                <div className="text-style-muted" style={{ marginTop: '0.5rem' }}>
+                  Red light (630–660nm) and near-infrared light (850nm) penetrate the skin, reaching deeper layers of muscle and tissue. This stimulates the mitochondria within your cells — the energy-producing organelles — directly influencing cellular metabolism.
                 </div>
               </div>
               <div id="w-node-_044d7065-fa78-2adc-534e-d410c221ea80-c221ea6c" className="action-plans_right">
+                {/* TODO: replace with red. Studio imagery */}
                 <img
                   src="/images/site/68ddb5146c331cb64685a697_frame%2016.avif"
-                  alt="Two healthcare reports showing biomarker results and a personalized action plan with health recommendations."
+                  alt=""
                   sizes="(max-width: 1925px) 100vw, 1925px"
                   srcSet="/images/site/68ddb5146c331cb64685a697_frame%2016-p-500.avif 500w, /images/site/68ddb5146c331cb64685a697_frame%2016-p-800.avif 800w, /images/site/68ddb5146c331cb64685a697_frame%2016-p-1080.avif 1080w, /images/site/68ddb5146c331cb64685a697_frame%2016.avif 1925w"
                   className="action-plans_img-documents"
@@ -64,32 +51,25 @@ export default function ActionPlans() {
                   loading="lazy"
                   sizes="100vw"
                   srcSet="/images/site/68bf490357c25d2fac6cc61f_nature%20superpower%201-p-500.avif 500w, /images/site/68bf490357c25d2fac6cc61f_nature%20superpower%201.avif 900w"
-                  alt="Cells connected by branching lines, with three large circular structures around them, under a microscope."
+                  alt=""
                   className="image_cover-absolute is-action-plans"
                   style={{ visibility: 'visible' }}
                 />
               </div>
             </div>
 
-            {/* General Check Up */}
+            {/* Step 2: Cellular stimulation */}
             <div className="action-plans_item is-general" style={{ opacity: 1, visibility: 'visible' }}>
               <div id="w-node-_044d7065-fa78-2adc-534e-d410c221ea84-c221ea6c" className="action-plans_left">
                 <div className="action-plans_logo-wrapper">
-                  <div className="text-size-large">General check up</div>
+                  <div className="text-size-large">2. Cellular stimulation</div>
                 </div>
-                <div className="button-group is-action-plans">
-                  <a
-                    href="https://cdn.prod.website-files.com/63792ff4f3d6aa3d62071b61/68b138d8864d1300cd7cd04f_vitamin%20and%20nutrition%20panel.pdf"
-                    target="_blank"
-                    className="button is-icon background-color-white w-inline-block"
-                    rel="noopener noreferrer"
-                  >
-                    <div>View sample</div>
-                    <DownloadIcon />
-                  </a>
+                <div className="text-style-muted" style={{ marginTop: '0.5rem' }}>
+                  Once absorbed by the mitochondria, the light enhances ATP (adenosine triphosphate) production — the primary energy currency of the body — boosting cellular function and repair.
                 </div>
               </div>
               <div id="w-node-_044d7065-fa78-2adc-534e-d410c221ea8d-c221ea6c" className="action-plans_right">
+                {/* TODO: replace with red. Studio imagery */}
                 <img
                   src="/images/site/68bf49e24405bd4261bb8306_group%201321315803.avif"
                   alt=""
@@ -103,7 +83,7 @@ export default function ActionPlans() {
                   loading="lazy"
                   sizes="100vw"
                   srcSet="/images/site/68bf490357c25d2fac6cc61f_nature%20superpower%201-p-500.avif 500w, /images/site/68bf490357c25d2fac6cc61f_nature%20superpower%201.avif 900w"
-                  alt="Cells connected by branching lines, with three large circular structures around them, under a microscope."
+                  alt=""
                   className="image_cover-absolute is-action-plans"
                   style={{ visibility: 'visible' }}
                 />
@@ -112,7 +92,7 @@ export default function ActionPlans() {
           </div>
           <div className="button-group is-center">
             <Link href="/checkout" className="button is-large is-icon w-inline-block">
-              <div>Start testing</div>
+              <div>Book your experience</div>
               <div className="icon-embed-regular hide-mobile-portrait w-embed">
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25" fill="none">
                   <path d="M9.5 18.5967L15.5 12.5967L9.5 6.59668" stroke="#FAFAFA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

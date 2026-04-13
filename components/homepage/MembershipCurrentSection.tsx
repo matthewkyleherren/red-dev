@@ -63,7 +63,7 @@ const tabs = [
     type: 'image' as const,
     src: '/images/site/68a4d57ea732f68822a4d11e_image%20(13).avif',
     srcSet: '/images/site/68a4d57ea732f68822a4d11e_image%20(13)-p-500.avif 500w, /images/site/68a4d57ea732f68822a4d11e_image%20(13)-p-800.avif 800w, /images/site/68a4d57ea732f68822a4d11e_image%20(13).avif 1044w',
-    alt: 'A smartphone displays health app results, showing biomarker summary, superpower score, and biological age details.',
+    alt: '',
   },
   {
     id: 'Tab 5',
@@ -97,7 +97,7 @@ const thumbnails = [
     src: '/images/site/68a4d57ea732f68822a4d11e_image%20(13).avif',
     srcSet: '/images/site/68a4d57ea732f68822a4d11e_image%20(13)-p-500.avif 500w, /images/site/68a4d57ea732f68822a4d11e_image%20(13)-p-800.avif 800w, /images/site/68a4d57ea732f68822a4d11e_image%20(13).avif 1044w',
     sizes: '(max-width: 479px) 100vw, (max-width: 857px) 92vw, 789px',
-    alt: 'A smartphone displays health app results, showing biomarker summary, superpower score, and biological age details.',
+    alt: '',
   },
   {
     id: 'Tab 5',
@@ -147,10 +147,10 @@ export default function MembershipCurrentSection({ children }: { children?: Reac
                                 </div>
                                 <div className="div-block-209">
                                   <div className="div-block-208">
-                                    <h1 className="text-color-white pricing">$17</h1>
+                                    <h1 className="text-color-white pricing">CHF 222</h1>
                                     <div className="text-size-medium text-color-white pricing-mo">/month</div>
                                   </div>
-                                  <div className="text-color-white text-size-medium">Billed annually at $199</div>
+                                  <div className="text-color-white text-size-medium">Billed annually at CHF 2,222</div>
                                 </div>
                               </div>
                               <div className="shine vertical"></div>
@@ -202,21 +202,23 @@ export default function MembershipCurrentSection({ children }: { children?: Reac
             <div className="membership-right">
               <div className="membership_header">
                 <div className="text-size-large text-color-secondary">
-                  What could cost you $15,000 is <span className="text_price-display-annual">$199</span>
+                  Invest in your light
                 </div>
                 <h2 className="heading-style-h1">
-                  Superpower<br />Membership
+                  red. UNLIMITED<br />Membership
                 </h2>
               </div>
               <div className="text-size-large">
-                Your membership includes one comprehensive blood draw each year, covering 100+ biomarkers in a single collection
+                Unlimited access to all red light experiences, movement classes, and the Mindfulness Menu
               </div>
               <div className="membership_checklist">
                 {[
-                  'One appointment, one draw for your annual panel.',
-                  '100+ biomarkers per year',
-                  'A personalized plan that evolves with you',
-                  'Get your biological age and track your health over a lifetime',
+                  'Unlimited 11 and 22 min experiences',
+                  'All movement classes included',
+                  'Priority booking',
+                  'Shareable credits (Besties Glowing eligible)',
+                  'Health Bar access',
+                  'Cancel anytime',
                 ].map((text, i) => (
                   <div key={i} className="membershp_checklist-row">
                     <div className="icon-embed-small w-embed">
@@ -228,31 +230,20 @@ export default function MembershipCurrentSection({ children }: { children?: Reac
               </div>
               <div className="membership_price">
                 <div className="div-block-243">
-                  <div className="text-size-large dollar-sign">$</div>
+                  <div className="text-size-large dollar-sign">CHF</div>
                 </div>
-                <div className="membership_price-number text_price-display-annual">17</div>
+                <div className="membership_price-number text_price-display-annual">222</div>
                 <div className="div-block-242">
                   <div className="text-size-large text-color-secondary">/month</div>
                   <div className="circle-dot"></div>
-                  <div className="text-size-large text-color-secondary">billed annually</div>
-                </div>
-              </div>
-              <div className="membership_nj-row">
-                <div className="text-size-small text-color-secondary text-align-center">
-                  Pricing for members in NY &amp; NJ is $399 with 90+ biomarkers tested.
+                  <div className="text-size-large text-color-secondary">billed annually at CHF 2,222</div>
                 </div>
               </div>
               <div className="membership_flexible-payments">
-                <div className="text-style-muted">Flexible payment options</div>
-                <img
-                  src="/images/site/68bf5ab8ebd836a9d9b6398d_frame%20(1).avif"
-                  loading="lazy"
-                  alt="Four credit card logos: HSA/FSA Eligible, American Express, Visa, and Mastercard."
-                  className="membership_flexible-img"
-                />
+                <div className="text-style-muted">Cancel anytime · Gift cards available</div>
               </div>
               <Link href="/checkout" className="button is-large is-icon w-inline-block">
-                <div>Start testing</div>
+                <div>Start your membership</div>
                 <div className="icon-embed-regular hide-mobile-portrait w-embed">
                   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 25 25" fill="none">
                     <path d="M9.5 18.5967L15.5 12.5967L9.5 6.59668" stroke="#FAFAFA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -270,13 +261,13 @@ export default function MembershipCurrentSection({ children }: { children?: Reac
                   <div className="icon-embed-small w-embed">
                     <HSAIcon />
                   </div>
-                  <div className="text-size-small text-color-secondary">HSA/FSA eligible</div>
+                  <div className="text-size-small text-color-secondary">Gift cards available</div>
                 </div>
                 <div className="membership_info-item">
                   <div className="icon-embed-small w-embed">
                     <CalendarIcon />
                   </div>
-                  <div className="text-size-small text-color-secondary">Results within a week</div>
+                  <div className="text-size-small text-color-secondary">Seefeldstrasse 152, Zurich</div>
                 </div>
               </div>
               {children}

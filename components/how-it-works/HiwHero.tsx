@@ -4,10 +4,10 @@ export default function HiwHero() {
       <div className="page-padding padding-section-large">
         <div className="container-large z-index-2">
           <div className="hiw_component">
-            <h1 className="z-index-1" style={{ opacity: 1, visibility: 'visible' }}>How it works</h1>
+            <h1 className="z-index-1" style={{ opacity: 1, visibility: 'visible' }}>How the red. experience works</h1>
             <div className="max-width-small">
               <p className="text-size-large" style={{ opacity: 1, visibility: 'visible' }}>
-                Book your labs in 15 min, and test 100+ labs in 1 blood draw. Get your results within a week.
+                11 minutes of red light therapy. A guided meditation. Lasting transformation.
               </p>
             </div>
             <div
@@ -19,9 +19,10 @@ export default function HiwHero() {
               }}
               className="hiw_right"
             >
+              {/* TODO: replace with red. Studio imagery */}
               <img
                 src="/images/site/68dc40167f31dd1a1cdae60f_sp-hiw-hero.avif"
-                alt="A person in a black shirt looks upward, touching their chest with one hand."
+                alt=""
                 style={{ opacity: 1, visibility: 'visible' }}
               />
               <div className="hiw_dots-wrapper" style={{ opacity: 1, visibility: 'visible' }}>
@@ -29,19 +30,19 @@ export default function HiwHero() {
                   <div className="hiw_dot">
                     <div className="clues_dot-circle is-cloth" />
                   </div>
-                  <div>Reduce fatigue</div>
+                  <div>Rejuvenate your skin</div>
                 </div>
                 <div className="hiw-dots_item is-2" style={{ opacity: 1, visibility: 'visible' }}>
                   <div className="hiw_dot">
                     <div className="clues_dot-circle is-cloth" />
                   </div>
-                  <div>Balance hormones</div>
+                  <div>Reduce inflammation</div>
                 </div>
                 <div className="hiw-dots_item is-3" style={{ opacity: 1, visibility: 'visible' }}>
                   <div className="hiw_dot">
                     <div className="clues_dot-circle is-cloth" />
                   </div>
-                  <div>Slow Ageing</div>
+                  <div>Enhance your sleep</div>
                 </div>
               </div>
             </div>

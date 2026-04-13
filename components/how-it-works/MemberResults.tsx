@@ -5,16 +5,16 @@ export default function MemberResults() {
         <div className="container-large z-index-2">
           <div className="title_row" style={{ opacity: 1, visibility: 'visible' }}>
             <h2 className="heading-style-h1">
-              <span className="text-color-zinc400">Members see results</span> <br />in just 6 months
+              <span className="text-color-zinc400">What the research</span> <br />shows
             </h2>
           </div>
           <div className="member-result_component" style={{ opacity: 1, visibility: 'visible' }}>
             {/* Stat 1 — Biological Age */}
             <div id="w-node-_062b38f9-ce27-6b57-9463-0249043d8cc9-1873d0c3" className="member-result_item" style={{ opacity: 1, visibility: 'visible' }}>
               <div className="stats-number">
-                <span className="span_stats-number is-2-digit is-big">70</span> <span>%</span>
+                <span className="span_stats-number is-2-digit is-big">122</span> <span>%</span>
               </div>
-              <div className="text-size-large text-style-muted">slow their speed of ageing</div>
+              <div className="text-size-large text-style-muted">increase in HRV after consistent RLT use</div>
               <img
                 src="/images/site/68df249ea8fe836663ddfddf_bio-age%20graph.avif"
                 alt=""
@@ -27,9 +27,9 @@ export default function MemberResults() {
             {/* Stat 2 — Diabetes Risk */}
             <div className="member-result_item" style={{ opacity: 1, visibility: 'visible' }}>
               <div className="stats-number">
-                <span className="span_stats-number is-2-digit is-big">63</span> <span>%</span>
+                <span className="span_stats-number is-2-digit is-big">100</span> <span>%+</span>
               </div>
-              <div className="text-size-large text-style-muted">find early risk factors for diabetes</div>
+              <div className="text-size-large text-style-muted">increase in endometrial thickness in IVF fertility study</div>
               <div className="member-result_bar">
                 <div className="visual1_bar-wrapper">
                   <div className="visual1_bar-inner1 is-65">
@@ -47,16 +47,16 @@ export default function MemberResults() {
               </div>
               <div className="member-result_bottom-row">
                 <img src="/images/site/68def0679cbb818651dd2a13_frame%201597885470.avif" loading="lazy" alt="" className="member-result_img" />
-                <div>Diabetes Risk</div>
+                <div>Fertisuisse, 2023</div>
               </div>
             </div>
 
             {/* Stat 3 — Heart Disease */}
             <div className="member-result_item" style={{ opacity: 1, visibility: 'visible' }}>
               <div className="stats-number">
-                <span className="span_stats-number is-2-digit is-big">44</span> <span>%</span>
+                <span className="span_stats-number is-2-digit is-big">8,000</span> <span>+</span>
               </div>
-              <div className="text-size-large text-style-muted">find elevated heart disease risk</div>
+              <div className="text-size-large text-style-muted">peer-reviewed studies supporting photobiomodulation</div>
               <div className="member-result_bar">
                 <div className="visual1_bar-wrapper">
                   <div className="visual1_bar-inner1 is-45">
@@ -74,12 +74,12 @@ export default function MemberResults() {
               </div>
               <div className="member-result_bottom-row">
                 <img src="/images/site/68def8182c785a6de4f745c9_frame%201597885470%20(1).avif" loading="lazy" alt="" className="member-result_img" />
-                <div>Heart Disease Risk</div>
+                <div>Photobiomodulation research</div>
               </div>
             </div>
           </div>
           <p id="w-node-_34f131cd-ec7b-ca8a-7299-edda533ddc7c-1873d0c3" className="text-size-small text-style-muted">
-            * Study conducted over 3,000 Superpower members, aggregated population health data over one year
+            Meta-research covering 8,000 studies and over 120,000 participants
           </p>
         </div>
       </div>

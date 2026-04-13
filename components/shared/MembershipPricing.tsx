@@ -27,30 +27,26 @@ interface OftenOption {
 const OFTEN_OPTIONS: OftenOption[] = [
   {
     key: 'annual-test',
-    label: '1x per year',
-    sublabel: 'Annual health check',
-    priceDisplay: 'Included',
-    value: 199,
+    label: 'Signature experience',
+    sublabel: '11 min full-body RLT + Mindfulness Menu',
+    priceDisplay: 'CHF 33',
+    value: 33,
     checkoutUrl: '/checkout/membership',
   },
   {
     key: '2',
-    label: '2x per year',
-    sublabel: 'Annual and follow-up check',
-    priceDisplay: '+ $169',
-    discountLabel: '$30 off',
-    discountStrikethrough: '$199',
-    value: 368,
+    label: 'Extended experience',
+    sublabel: '22 min full-body RLT + Mindfulness Menu',
+    priceDisplay: 'CHF 55',
+    value: 55,
     checkoutUrl: '/checkout/membership-2',
   },
   {
     key: '4',
-    label: '4x per year',
-    sublabel: 'Annual and follow-up check',
-    priceDisplay: '$449',
-    discountLabel: '$148 off',
-    discountStrikethrough: '$597',
-    value: 648,
+    label: 'Bundle (15 credits)',
+    sublabel: 'Valid 6 months · Shareable · CHF 26/credit',
+    priceDisplay: 'CHF 330',
+    value: 330,
     checkoutUrl: '/checkout/membership-4',
   },
 ];
@@ -84,9 +80,9 @@ const TAB_IMAGES = [
 ];
 
 const OFTEN_LABELS: Record<OftenKey, string> = {
-  'annual-test': '1x / year',
-  '2': '2x / year',
-  '4': '4x / year',
+  'annual-test': 'Single visit',
+  '2': 'Extended visit',
+  '4': '15-credit bundle',
 };
 
 /* ------------------------------------------------------------------ */
@@ -424,19 +420,19 @@ export default function MembershipPricing() {
                         <div className="icon-1x1-medium w-embed">
                           <SearchIcon />
                         </div>
-                        <div>Detect signs of 1000s of conditions</div>
+                        <div>630nm, 660nm &amp; 850nm wavelengths</div>
                       </div>
                       <div className="memb-standout_item">
                         <div className="icon-1x1-medium w-embed">
                           <HomeIcon />
                         </div>
-                        <div>At-home testing available</div>
+                        <div>Seefeldstrasse 152, Zurich</div>
                       </div>
                       <div className="memb-standout_item">
                         <div className="icon-1x1-medium w-embed">
                           <ChecklistIcon />
                         </div>
-                        <div>A personalized plan that actually works</div>
+                        <div>Guided mindfulness with every session</div>
                       </div>
                     </div>
                   </div>
@@ -531,23 +527,23 @@ export default function MembershipPricing() {
                       target="_blank"
                       className="trustpilot-component_inline is-full-wifth-tablet w-inline-block"
                     >
-                      <div>Excellent 4.6 out of 5</div>
+                      <div>Zurich&apos;s leading RLT studio</div>
                       <div className="logo_trustpilot w-embed">
                         <TrustpilotLogo />
                       </div>
                     </a>
                     <div className="line-divider-vertical hide-tablet" />
-                    <div>Trusted by 150k+ people</div>
+                    <div>Seefeldstrasse 152</div>
                     <div className="line-divider-vertical" />
                     <div className="badge_block">
                       <div className="icon-1x1-xsmall w-embed">
                         <CheckIconOrange />
                       </div>
-                      <div>HSA/FSA eligible</div>
+                      <div>Gift cards available</div>
                     </div>
                   </div>
 
-                  <h3 className="heading-style-h2 is-membership">Start your Superpower membership</h3>
+                  <h3 className="heading-style-h2 is-membership">Start your red. membership</h3>
 
                   {/* Mobile standout row */}
                   <div className="show-tablet">
@@ -556,38 +552,38 @@ export default function MembershipPricing() {
                         <div className="icon-1x1-medium w-embed">
                           <SearchIcon />
                         </div>
-                        <div>Detect signs of 1000s of conditions</div>
+                        <div>630nm, 660nm &amp; 850nm wavelengths</div>
                       </div>
                       <div className="memb-standout_item">
                         <div className="icon-1x1-medium w-embed">
                           <HomeIcon />
                         </div>
-                        <div>At-home testing available</div>
+                        <div>Seefeldstrasse 152, Zurich</div>
                       </div>
                       <div className="memb-standout_item">
                         <div className="icon-1x1-medium w-embed">
                           <ChecklistIcon />
                         </div>
-                        <div>A personalized plan that actually works</div>
+                        <div>Guided mindfulness with every session</div>
                       </div>
                     </div>
                   </div>
 
                   {/* Pricing radio form */}
                   <div className="memb_right-block">
-                    <div className="text-size-large">How often do you want to test?</div>
+                    <div className="text-size-large">Choose your experience</div>
                     <div className="memb_radio-wrapper">
-                      {/* Option 1: 1x per year */}
+                      {/* Option 1: Signature experience */}
                       <label className="memb_radio-btn-field w-radio">
                         <div className="memb_radio-text-inner">
                           <div className="memb_radio-text-inner-block">
-                            <div>1x per year</div>
+                            <div>Signature experience</div>
                             <div className="memb-radio_text-left-bottom">
-                              <div>Annual health check</div>
+                              <div>11 min full-body RLT + Mindfulness Menu</div>
                             </div>
                           </div>
                           <div className="memb_radio-text-inner-block is-auto">
-                            <div>Included</div>
+                            <div>CHF 33</div>
                             <div className="memb-radio_month-wrapper" />
                           </div>
                         </div>
@@ -624,21 +620,14 @@ export default function MembershipPricing() {
                       />
                       <div className="memb_radio-text-inner">
                         <div className="memb_radio-text-inner-block">
-                          <div>2x per year <span className="text-pill">Recommended</span></div>
+                          <div>Extended experience <span className="text-pill">Recommended</span></div>
                           <div className="memb-radio_text-left-bottom">
-                            <div>Annual and follow-up check</div>
+                            <div>22 min full-body RLT + Mindfulness Menu</div>
                           </div>
                         </div>
                         <div className="memb_radio-text-inner-block is-auto">
-                          <div>+ $169</div>
+                          <div>CHF 55</div>
                           <div className="memb-radio_month-wrapper">
-                            <div className="memb-discount-amount">
-                              <div className="icon-1x1-xxxsmall w-embed">
-                                <TagIcon />
-                              </div>
-                              <div>$30 off</div>
-                            </div>
-                            <div className="text-style-muted text-style-strikethrough">$199</div>
                           </div>
                         </div>
                       </div>
@@ -661,21 +650,14 @@ export default function MembershipPricing() {
                       />
                       <div className="memb_radio-text-inner">
                         <div className="memb_radio-text-inner-block">
-                          <div>4x per year <span className="text-pill">Recommended</span></div>
+                          <div>Bundle (15 credits) <span className="text-pill">Best value</span></div>
                           <div className="memb-radio_text-left-bottom">
-                            <div>Annual and follow-up check</div>
+                            <div>Valid 6 months · Shareable · CHF 26/credit</div>
                           </div>
                         </div>
                         <div className="memb_radio-text-inner-block is-auto">
-                          <div>$449</div>
+                          <div>CHF 330</div>
                           <div className="memb-radio_month-wrapper">
-                            <div className="memb-discount-amount">
-                              <div className="icon-1x1-xxxsmall w-embed">
-                                <TagIcon />
-                              </div>
-                              <div>$148 off</div>
-                            </div>
-                            <div className="text-style-muted text-style-strikethrough">$597</div>
                           </div>
                         </div>
                       </div>
@@ -694,8 +676,8 @@ export default function MembershipPricing() {
                         className="memb_modal-img"
                       />
                       <div className="memb-modal_text-wrapper">
-                        <div>Advanced vs Baseline Panels</div>
-                        <div className="text-style-muted">Hear a health practitioner&#39;s perspective.</div>
+                        <div>Signature vs Extended experiences</div>
+                        <div className="text-style-muted">Learn how the Mindfulness Menu pairs with your session.</div>
                         <div className="memb-modal_open-icon w-embed">
                           <PlusIcon />
                         </div>
@@ -709,18 +691,13 @@ export default function MembershipPricing() {
                     data-cta="membership"
                     className="button is-icon w-variant-7bd19c40-b53b-3850-8d30-c61fc64d54f7 w-inline-block"
                   >
-                    <div>Start testing</div>
+                    <div>Start your membership</div>
                   </Link>
 
-                  {/* Flexible payments image */}
-                  <img
-                    src="/images/site/6976a8df17bf5bb2f28db34a_Frame.avif"
-                    loading="lazy"
-                    sizes="(max-width: 789px) 100vw, 789px, 100vw"
-                    srcSet="/images/site/6976a8df17bf5bb2f28db34a_Frame-p-500.avif 500w, /images/site/6976a8df17bf5bb2f28db34a_Frame.avif 789w"
-                    alt=""
-                    className="membership_flexible-img is-bigger"
-                  />
+                  {/* Flexible payments note */}
+                  <div className="text-style-muted text-size-small" style={{ marginTop: '0.5rem', textAlign: 'center' }}>
+                    Cancel anytime · Gift cards available
+                  </div>
                 </div>
               </form>
               <div className="hide w-form-done">
@@ -750,28 +727,29 @@ export default function MembershipPricing() {
               >
                 <div className="memb-modal_text-inner-wrapper is-plan">
                   <div className="hide-tablet">
-                    <div className="heading-style-h3">What&apos;s the difference between testing plans?</div>
+                    <div className="heading-style-h3">What&apos;s the difference between our experiences?</div>
                   </div>
                   <div className="text-rich-popup w-richtext">
-                    <p>The Superpower Baseline Panel is already comprehensive.<br />It covers 10 times more biomarkers than a typical annual physical.</p>
-                    <p>The Advanced Panel is designed to go deeper, with three scenarios in particular.</p>
+                    <p>The 11-minute signature experience is our core session.<br />Full-body red and near-infrared light paired with a guided meditation from the Mindfulness Menu.</p>
+                    <p>The 22-minute extended experience goes deeper.</p>
                     <ul role="list">
-                      <li>Uncovering risks that don&apos;t show up in standard labs<br /><sup>Markers like Lp(a), LDL lipoprotein fractionation help identify cardiovascular risk even when cholesterol looks normal.</sup></li>
+                      <li>Deeper relaxation and recovery<br /><sup>More light exposure means more ATP production and cellular repair — ideal after workouts, stressful weeks, or when you need extra restoration.</sup></li>
                     </ul>
                     <ul role="list">
-                      <li>Know what drives energy, metabolism and hormones<br /><sup>Tests like insulin, IGF-1, thyroid antibodies, and inflammatory markers explain symptoms that basic hormone tests can&apos;t.</sup></li>
+                      <li>Longer meditation journey<br /><sup>Choose from breathwork, body scans, visualisations, and sleep meditations for a more immersive mindfulness experience.</sup></li>
                     </ul>
                     <ul role="list">
-                      <li>Reveal deeper patterns<br /><sup>Inflammation, autoimmunity, and nutrient markers (e.g. homocysteine, ESR, thyroid antibodies) can show what&apos;s driving long-term health trends.</sup></li>
+                      <li>Maximum skin and tissue benefits<br /><sup>Extended exposure at 630nm, 660nm and 850nm wavelengths stimulates collagen production, reduces inflammation, and supports hormonal balance more deeply.</sup></li>
                     </ul>
-                    <p>Individuals with family history of heart disease, unresolved symptoms, or a desire to understand inflammation and hormone health especially benefit from testing.</p>
+                    <p>For those new to RLT, the signature session is a perfect introduction. Members focused on recovery, skin health, or stress management often prefer the extended experience.</p>
                   </div>
                 </div>
                 <div className="memb-modal_image-wrapper">
                   <div className="show-tablet">
-                    <div className="heading-style-h2">What&apos;s the difference between testing plans?</div>
+                    <div className="heading-style-h2">What&apos;s the difference between our experiences?</div>
                   </div>
-                  <Link href="/biomarkers" className="memb-modal_panel-item w-inline-block">
+                  <Link href="/checkout" className="memb-modal_panel-item w-inline-block">
+                    {/* TODO: replace with red. Studio imagery */}
                     <img
                       src="/images/site/6976b45d447e1815f475e8ee_Baseline%20Panel%20%5BMobile%5D.avif"
                       loading="lazy"
@@ -779,13 +757,14 @@ export default function MembershipPricing() {
                       className="memb-modal_panel-img-small"
                     />
                     <div className="memb-modal_panel-text-wrapper">
-                      <div>Baseline Panel</div>
+                      <div>Signature experience</div>
                       <div className="memb-modal-panel-text-bottom">
-                        <div className="text-style-muted text-size-small">100+ biomarkers</div>
+                        <div className="text-style-muted text-size-small">11 minutes · CHF 33</div>
                       </div>
                     </div>
                   </Link>
-                  <Link href="/biomarkers" className="memb-modal_panel-item w-inline-block">
+                  <Link href="/checkout" className="memb-modal_panel-item w-inline-block">
+                    {/* TODO: replace with red. Studio imagery */}
                     <img
                       src="/images/site/697a41996a07d9572f3e0fc5_Frame%201597884035.avif"
                       loading="lazy"
@@ -793,13 +772,13 @@ export default function MembershipPricing() {
                       className="memb-modal_panel-img-small"
                     />
                     <div className="memb-modal_panel-text-wrapper">
-                      <div>Advanced Panel</div>
+                      <div>Extended experience</div>
                       <div className="memb-modal-panel-text-bottom">
-                        <div className="text-style-muted text-size-small">Additional 20 biomarkers</div>
+                        <div className="text-style-muted text-size-small">22 minutes · CHF 55</div>
                       </div>
                     </div>
                   </Link>
-                  <div className="text-pill is-advanced-panel">Doctors suggest testing the Advanced Panel at least once per year.</div>
+                  <div className="text-pill is-advanced-panel">For deeper recovery, skin health, or stress management, choose the extended experience.</div>
                 </div>
                 <div className="memb-modal_gradient" />
               </div>
@@ -845,7 +824,7 @@ export default function MembershipPricing() {
                 }}
               >
                 <div className="memb-modal_text-inner-wrapper is-video">
-                  <div className="heading-style-h3">What&apos;s the difference between test plans</div>
+                  <div className="heading-style-h3">Signature vs Extended experiences</div>
                   <img
                     src="/images/site/6977ef7f91eed06b52c82d0c_Frame%201739335365.avif"
                     loading="lazy"
@@ -856,11 +835,11 @@ export default function MembershipPricing() {
                   />
                   <div className="margin-top margin-small hide-tablet">
                     <p className="text-color-secondary">
-                      The Advanced Panel is designed to go deeper, with three scenarios in particular.
+                      The extended experience offers deeper relaxation, more light exposure, and a longer meditation.
                       <br /><br />
-                      In this video, our clinician Brittany will explain what scenarios Advanced testing is helpful for.
+                      Learn what makes each experience unique and which one is right for you.
                     </p>
-                    <div className="text-pill is-advanced-panel">Doctors suggest testing the Advanced Panel at least once per year.</div>
+                    <div className="text-pill is-advanced-panel">For maximum benefits, 2–4 sessions per week is recommended.</div>
                   </div>
                 </div>
                 <div className="memb-modal_video-wrapper">
@@ -938,7 +917,7 @@ export default function MembershipPricing() {
                   </div>
                   <div className="memb-sticky_text-wrapper">
                     <div className="memb-sticky_text-top">
-                      <div className="text-size-medium">Superpower Membership</div>
+                      <div className="text-size-medium">red. Membership</div>
                     </div>
                     <div className="memb-sticky_text-wrapper-bottom">
                       <div data-bind="often-label">{oftenLabel}</div>
@@ -951,7 +930,7 @@ export default function MembershipPricing() {
                     data-cta="membership"
                     className="button is-icon orange---large---rectangle w-inline-block"
                   >
-                    <div>Start now &ndash; ${priceNumber}</div>
+                    <div>Start now &ndash; CHF {priceNumber}</div>
                   </Link>
                 </div>
               </div>

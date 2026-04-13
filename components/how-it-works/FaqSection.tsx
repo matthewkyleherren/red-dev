@@ -15,158 +15,82 @@ interface FaqGroup {
 
 const FAQ_GROUPS: FaqGroup[] = [
   {
-    title: 'How it works',
+    title: 'About red light therapy',
     items: [
       {
-        question: 'What should I expect during a blood draw?',
+        question: 'What is red light therapy?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <ul role="list">
-              <li>A trained phlebotomist will guide you through the process.</li>
-              <li>A tourniquet is placed on your arm, the site is cleaned, and a small needle is used to collect blood into one or more tubes.</li>
-              <li>Results are usually ready in about a week.</li>
-              <li>Most people feel only a quick pinch.</li>
-              <li>The needle is removed, gentle pressure is applied, and a bandage is placed.</li>
-            </ul>
+            <p>Red light therapy (RLT) is a non-invasive therapy that uses specific wavelengths of visible red light (630–660nm) and near-infrared light (810–850nm) to penetrate the skin and stimulate cellular function.</p>
+            <p>Applications include pain management, skin rejuvenation, muscle recovery, hormonal support, and cognitive health.</p>
           </div>
         ),
       },
       {
-        question: 'How do I prepare for a blood draw?',
+        question: 'How does it work scientifically?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <ul role="list">
-              <li>Drink plenty of water beforehand — hydration makes veins easier to find.</li>
-              <li>Wear loose sleeves so your arm is easy to access.</li>
-              <li>Follow any fasting instructions you&#39;ve been given.</li>
-              <li>Let us know if you&#39;re on medications, have fainted before, or have needle anxiety.</li>
-            </ul>
+            <p>Red and near-infrared light is absorbed by the mitochondria — the energy centres of your cells. This stimulates cytochrome c oxidase, boosting ATP (adenosine triphosphate) production, which drives more efficient cellular function, reduced inflammation, and faster tissue repair.</p>
           </div>
         ),
       },
       {
-        question: 'What should I do after my blood draw?',
+        question: 'How often should I come, and how quickly will I see results?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <ul role="list">
-              <li>Press gently on the site for a few minutes.</li>
-              <li>Keep the bandage on for 4-6 hours.</li>
-              <li>Skip heavy lifting or strenuous exercise for the rest of the day.</li>
-              <li>Drink extra water to rehydrate.</li>
-              <li>Monitor the site for redness, swelling, or pain.</li>
-            </ul>
+            <p>For best results, 2–4 sessions per week is recommended.</p>
+            <p>Many members notice immediate effects — calm, reduced tension, improved mood — after their first session. Visible improvements to skin, sleep, and inflammation typically reveal themselves over 3–8 weeks of consistent use.</p>
           </div>
         ),
       },
       {
-        question: 'How do I book a blood draw with Superpower?',
+        question: 'What should I wear? Do I need to prepare?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <p>Your membership includes:</p>
-            <ul role="list">
-              <li>An annual full body test and report across 100+ biomarkers</li>
-              <li>A personalized action plan to optimize your biomarkers and reach your health goals</li>
-              <li>A dashboard to centralize your health data and track changes across a lifetime</li>
-              <li>Access to a health concierge for questions on your plan and help scheduling</li>
-              <li>Plus a marketplace of curated health products and services at member pricing</li>
-            </ul>
-            <p>Many concierge clinics charge $10k – $100k for their services, we&#39;ve built technology to make the world&#39;s best healthcare as accessible as possible via an all-in-one membership.</p>
-          </div>
-        ),
-      },
-      {
-        question: 'Where can I take my blood test?',
-        answer: (
-          <div className="accordion-content">
-            <div className="accordion-content has-fixed-width">
-              <p className="text-color-secondary margin-top margin-xsmall">
-                Superpower is currently available in the following US states:
-              </p>
-              <div className="rich-text-block w-richtext">
-                <ul role="list">
-                  <li>Alabama</li>
-                  <li>Arizona</li>
-                  <li>California</li>
-                  <li>Colorado</li>
-                  <li>Connecticut</li>
-                  <li>Delaware</li>
-                  <li>District of Columbia</li>
-                  <li>Florida</li>
-                  <li>Georgia</li>
-                  <li>Idaho</li>
-                  <li>Illinois</li>
-                  <li>Indiana</li>
-                  <li>Kansas</li>
-                  <li>Maine</li>
-                  <li>Maryland</li>
-                  <li>Massachusetts</li>
-                  <li>Michigan</li>
-                  <li>Minnesota</li>
-                  <li>Missouri</li>
-                  <li>Montana</li>
-                  <li>Nebraska</li>
-                  <li>Nevada</li>
-                  <li>New Hampshire</li>
-                  <li>New Jersey</li>
-                  <li>New Mexico</li>
-                  <li>New York</li>
-                  <li>North Carolina</li>
-                  <li>Ohio</li>
-                  <li>Oklahoma</li>
-                  <li>Oregon</li>
-                  <li>Pennsylvania</li>
-                  <li>South Carolina</li>
-                  <li>Tennessee</li>
-                  <li>Texas</li>
-                  <li>Utah</li>
-                  <li>Vermont</li>
-                  <li>Virginia</li>
-                  <li>Washington</li>
-                  <li>West Virginia</li>
-                  <li>Wisconsin</li>
-                </ul>
-              </div>
-            </div>
+            <p>The more skin you expose, the more light your body can absorb — but wear whatever makes you most comfortable.</p>
+            <p>The light produces no thermal heat, so there&#39;s no need to shower afterwards. Remove makeup for maximum skin penetration, though the wavelengths will still penetrate through it.</p>
+            <p>You don&#39;t need to bring anything except yourself.</p>
           </div>
         ),
       },
     ],
   },
   {
-    title: 'Our testing',
+    title: 'Your experience',
     items: [
       {
-        question: 'Does Superpower replace my primary care provider?',
+        question: "What's the difference between the 11 and 22 minute experiences?",
         answer: (
           <div className="text_rich-1 w-richtext">
-            <p>Superpower specializes in prevention-based testing and treatments and is not intended for emergency or immediate health issues.</p>
-            <p>While you will have a Superpower care team, your annual membership is designed to complement a primary care doctor if you have one, not replace them.</p>
-            <p>We are happy to help you share any test results with an outside provider to ensure you receive well-rounded medical care.</p>
+            <p>The 11-minute signature experience delivers our core full-body RLT session with a guided meditation.</p>
+            <p>The 22-minute extended experience offers deeper relaxation, more light exposure, and a longer meditation — ideal for recovery, stress relief, or simply treating yourself.</p>
           </div>
         ),
       },
       {
-        question: 'How fast are blood test results and how do I read them?',
+        question: 'Can red light therapy improve my skin?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <p>Your annual lab test panel takes about a week to process. We will text you as soon as they become available in your dashboard. Other types of tests may have different testing windows. The Superpower concierge is your own health assistant who helps answer your questions on your results, ensure smooth scheduling, coordination of any office-based tests and navigating you to interface with your care team.</p>
+            <p>Yes. RLT stimulates fibroblasts — the skin cells responsible for producing collagen and elastin — while improving blood circulation and reducing oxidative stress.</p>
+            <p>Consistent use leads to smoother texture, reduced fine lines, more even skin tone, and faster wound healing.</p>
           </div>
         ),
       },
       {
-        question: 'Does Superpower accept health insurance?',
+        question: 'Does it help with sleep?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <p>Superpower membership and products are all eligible for HSA/FSA funding.</p>
-            <p>We see Superpower like a gym membership for those committed to prevention and performance. Superpower is a bridge between wellness and healthcare. Health insurance traditionally focuses on reactive care whereas, at Superpower, we believe it&#39;s never too early to start looking out for your long-term health.</p>
+            <p>Red light helps regulate circadian rhythms and supports melatonin production — unlike blue light, which disrupts it.</p>
+            <p>The combination of RLT and guided meditation also calms the nervous system, making evening sessions particularly effective for winding down.</p>
           </div>
         ),
       },
       {
-        question: 'What if I want more than 1 blood test per year?',
+        question: 'Is it safe during pregnancy?',
         answer: (
           <div className="text_rich-1 w-richtext">
-            <p>Absolutely — you&#39;re not limited to just one. Your membership includes one comprehensive 100+ biomarker blood test each year, but if you&#39;d like to track your progress more closely, you can add extra tests at any time. Each additional full-panel test come at an additional cost. You can order as many as you&#39;d like throughout the year.</p>
+            <p>RLT is generally considered safe and non-invasive, but we recommend avoiding direct exposure over the abdomen or lower back during pregnancy.</p>
+            <p>Please consult your healthcare provider before booking.</p>
           </div>
         ),
       },
@@ -277,10 +201,10 @@ export default function FaqSection() {
                 />
                 <div>
                   <p className="text-size-large margin-bottom margin-xxxsmall text-align-center">
-                    &ldquo;Best health check of my entire life.&rdquo;
+                    &ldquo;The combination of the light and the meditation is unlike anything else.&rdquo;
                   </p>
                   <p className="text-size-medium text-align-center text-color-secondary">
-                    Vinay Hiremath, Founder of Loom
+                    Studio member, Zurich
                   </p>
                 </div>
               </div>
@@ -293,10 +217,10 @@ export default function FaqSection() {
                 />
                 <div>
                   <p className="text-size-large margin-bottom margin-xxxsmall text-align-center">
-                    &ldquo;Life changing&rdquo;
+                    &ldquo;I sleep better, look better, and feel more like myself.&rdquo;
                   </p>
                   <p className="text-size-medium text-align-center text-color-secondary">
-                    Jordi Hayes, Founder of Capital.xyz
+                    Studio member, Zurich
                   </p>
                 </div>
               </div>

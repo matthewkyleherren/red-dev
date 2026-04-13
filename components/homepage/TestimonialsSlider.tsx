@@ -270,10 +270,10 @@ export default function TestimonialsSlider() {
                 <div className="page-padding-mobile">
                   <div className="title_row is-2col">
                     <div>
-                      <h2>Superpower is changing thousands of lives</h2>
+                      <h2>red. is transforming wellbeing in Zurich</h2>
                     </div>
-                    <Link href="/reviews" id="w-node-_028fa369-a833-b98d-3682-9b4554be0a64-54be0a5a" className="button is-tertiary w-inline-block">
-                      <div>See more reviews</div>
+                    <Link href="/how-it-works" id="w-node-_028fa369-a833-b98d-3682-9b4554be0a64-54be0a5a" className="button is-tertiary w-inline-block">
+                      <div>Learn more</div>
                     </Link>
                   </div>
                 </div>

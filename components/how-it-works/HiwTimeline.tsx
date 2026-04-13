@@ -127,8 +127,8 @@ export default function HiwTimeline() {
       <div className="page-padding padding-section-large">
         <div className="container-large z-index-2">
           <div className="title_row is-centered2">
-            <div className="text-size-medium text-style-muted">No more wait times for your health</div>
-            <h2 className="heading-style-h1">Get clarity at every step</h2>
+            <div className="text-size-medium text-style-muted">No complicated protocols</div>
+            <h2 className="heading-style-h1">Feel the shift, step by step</h2>
           </div>
           <div className="hiw-timeline_component" ref={componentRef}>
             <div className="hiw-timeline_line-wrapper">
@@ -138,43 +138,46 @@ export default function HiwTimeline() {
               </div>
             </div>
 
+            {/* TODO: replace with red. Studio imagery */}
             <TimelineStep
               imageSrc="/images/site/68f1118730505995cc94b69e_frame%201597885600%20(1).avif"
               imageSrcSet="/images/site/68f1118730505995cc94b69e_frame%201597885600%20(1)-p-500.avif 500w, /images/site/68f1118730505995cc94b69e_frame%201597885600%20(1).avif 1542w"
               imageSizes="(max-width: 1542px) 100vw, 1542px"
-              label="Today"
-              heading="Book your lab test"
-              description="Schedule your annual blood draw through the app. Take it in the comfort of your home or at one of 2,000 Quest Diagnostics lab locations."
+              label="Session 1"
+              heading="Book your experience"
+              description="Book online in under two minutes. Select an 11-minute signature session or a 22-minute deep relaxation. Browse the Mindfulness Menu and choose a guided meditation that calls to you — breathwork, body scan, visualisation, or sleep."
               checks={[
-                '100+ biomarkers in 1 blood draw',
-                'Test completed in 15 min',
-                'HSA/FSA eligible',
+                'Available in 11 or 22 min',
+                'No preparation needed',
+                'Membership or single booking',
               ]}
             />
 
+            {/* TODO: replace with red. Studio imagery */}
             <TimelineStep
               imageSrc="/images/site/68df1a0132ce434cf3c4c4a4_frame%201597885626.avif"
               imageSrcSet="/images/site/68df1a0132ce434cf3c4c4a4_frame%201597885626-p-500.avif 500w, /images/site/68df1a0132ce434cf3c4c4a4_frame%201597885626-p-800.avif 800w, /images/site/68df1a0132ce434cf3c4c4a4_frame%201597885626-p-1080.avif 1080w, /images/site/68df1a0132ce434cf3c4c4a4_frame%201597885626.avif 2056w"
-              label="Day 5"
-              heading="Understand your results"
-              description="Your results in a clear, easy-to-read dashboard with each biomarker explained. Easily track your health across tests, to see the impact of your choices."
+              label="During your session"
+              heading="Lie back. Let the light do the work."
+              description="Our full-body RLT bed delivers 630nm, 660nm and 850nm wavelengths across your entire body. The light penetrates your skin and muscles, stimulating mitochondrial activity and boosting ATP production — while your chosen meditation brings your mind into a state of deep rest."
               checks={[
-                'No medical jargon or PDFs',
-                'Understand your results',
-                'Upload past medical records',
+                'Warm, non-thermal light',
+                'No need to fully undress',
+                'Immediate calm and relaxation',
               ]}
             />
 
+            {/* TODO: replace with red. Studio imagery */}
             <TimelineStep
               imageSrc="/images/site/68df1a2cc8140ea958b0a37c_frame%201597885625.avif"
               imageSrcSet="/images/site/68df1a2cc8140ea958b0a37c_frame%201597885625-p-500.avif 500w, /images/site/68df1a2cc8140ea958b0a37c_frame%201597885625-p-800.avif 800w, /images/site/68df1a2cc8140ea958b0a37c_frame%201597885625.avif 2056w"
-              label="Day 10"
-              heading="Take action"
-              description="Your personalized health plan gives you step-by-step how to improve your health, through changes in your diet, fitness and lifestyle."
+              label="Weeks 3–8"
+              heading="See the transformation"
+              description="With 2–4 sessions per week, the cumulative effects of red light therapy become visible. Skin texture improves, inflammation reduces, sleep deepens, and hormonal balance shifts. Most members report feeling clearer, lighter and more resilient within their first month."
               checks={[
-                'Custom supplement plan',
-                'Actionable recommendations',
-                'Clear next steps',
+                'Visible skin improvements',
+                'Reduced muscle soreness',
+                'Better sleep and mood',
               ]}
               isLast
             />

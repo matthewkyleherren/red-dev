@@ -3,7 +3,7 @@ export default function CliniciansSection() {
     {
       img: '/images/site/688286f9a0d5aaa42ec70b82_MD%20Profiles%201.avif',
       name: 'Dr Anant Vinjamoori',
-      title: 'Superpower Chief Longevity Officer, Harvard MD & MBA',
+      title: 'Longevity researcher, Harvard MD & MBA',
     },
     {
       img: '/images/site/68828720c595517f8c1a5690_MD%20Profiles%202.avif',
@@ -32,10 +32,10 @@ export default function CliniciansSection() {
             <div className="clinicians_header">
               <div className="clinicians_header-left">
                 <div className="margin-bottom margin-xsmall">
-                  <h2>Developed by world-class medical professionals</h2>
+                  <h2>Backed by science. Guided by experts.</h2>
                 </div>
                 <p className="text-size-large text-color-secondary">
-                  Supported by the world&apos;s top longevity clinicians and MDs.
+                  Our protocols are informed by leading researchers in photobiomodulation and integrative health.
                 </p>
               </div>
               <div className="clinicians_header-right">

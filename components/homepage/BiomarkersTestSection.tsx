@@ -59,9 +59,9 @@ export default function BiomarkersTestSection() {
           <div className="biomarkers-test_component">
             <div className="bio-test_left home">
               <div className="title_row">
-                <h2>See everything we test</h2>
+                <h2>The wavelengths behind every session</h2>
                 <p className="text-size-large text-style-muted">
-                  The following 100+ biomarkers are included with your annual Superpower membership.
+                  Our full-body RLT beds deliver clinically researched wavelengths targeting cellular processes across your entire body.
                 </p>
               </div>
               <div className="bio-test_category-wrapper">

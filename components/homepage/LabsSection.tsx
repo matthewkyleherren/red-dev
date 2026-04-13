@@ -28,12 +28,12 @@ export default function LabsSection() {
           <div className="padding-vertical padding-xlarge">
             <div className="container-large">
               <div className="title_row is-centered2">
-                <h2 className="heading-style-h1">It starts with 100+ labs</h2>
+                <h2 className="heading-style-h1">It starts with the light</h2>
                 <p className="text-size-large">
-                  From heart health to hormone balance our comprehensive test panels detect early signs of over 1,000 conditions
+                  From skin rejuvenation to hormonal balance, red and near-infrared light at 630nm, 660nm and 850nm stimulates your mitochondria — the energy centres of your cells — triggering over 1,000 healing processes from a single session.
                 </p>
-                <Link href="/biomarkers" className="button is-tertiary is-icon w-inline-block">
-                  <div>Explore all biomarkers</div>
+                <Link href="/how-it-works" className="button is-tertiary is-icon w-inline-block">
+                  <div>Learn how it works</div>
                   <div className="icon-embed-small w-embed">
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none">
                       <path d="M7 7H17M17 7V17M17 7L7 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -45,6 +45,7 @@ export default function LabsSection() {
           </div>
         </div>
         {/* Desktop visual */}
+        {/* TODO: replace with red. Studio imagery */}
         <div className="labs2_visual-wrapper">
           <div className="labs2_visual-image-wrapper">
             <img
@@ -52,7 +53,7 @@ export default function LabsSection() {
               loading="lazy"
               sizes="100vw"
               srcSet="/images/site/68a7a9565b28afd609739daa_Superpower%20Score-p-500.avif 500w, /images/site/68a7a9565b28afd609739daa_Superpower%20Score.avif 912w"
-              alt="Graph displaying changes in Superpower Score over time, with explanations about its calculation and significance."
+              alt="Cellular energy boost visualization"
               className="image_cover-absolute is-right-heavy"
             />
           </div>
@@ -102,7 +103,7 @@ export default function LabsSection() {
             <img
               src="/images/site/68a7a98ca28b2a7760e72cd0_Group%201321315829.avif"
               loading="lazy"
-              alt='A test tube labeled "Superpower Blood Panel" with an orange cap and a glowing blue tip.'
+              alt=""
               className="labs2_visual-image-tube"
             />
             <div className="labs2_visual-border"></div>
@@ -113,13 +114,14 @@ export default function LabsSection() {
               loading="lazy"
               sizes="100vw"
               srcSet="/images/site/68a7a91e594b8d4029a38fb8_Group%201410124615-p-500.avif 500w, /images/site/68a7a91e594b8d4029a38fb8_Group%201410124615.avif 888w"
-              alt="A pending notification for test results with estimated delivery in 7 to 10 days and product recommendations."
+              alt="Wavelength and cellular process visualization"
               className="image_cover-absolute is-left-heavy"
             />
           </div>
           <div className="labs2_gradient"></div>
         </div>
         {/* Mobile visual */}
+        {/* TODO: replace with red. Studio imagery */}
         <div className="labs2_visual-wrapper is-mobile">
           <div className="labs2_visual-image-wrapper">
             <img
@@ -132,13 +134,13 @@ export default function LabsSection() {
             <img
               src="/images/site/68a8fbb1ba9665c2cd71afd8_Group%201321315830.avif"
               loading="lazy"
-              alt="A smartphone screen displays health data, including biomarker scores and biological age, next to a blood test vial."
+              alt=""
               className="image_cover-absolute"
             />
             <img
               src="/images/site/68a7a98ca28b2a7760e72cd0_Group%201321315829.avif"
               loading="lazy"
-              alt='A test tube labeled "Superpower Blood Panel" with an orange cap and a glowing blue tip.'
+              alt=""
               className="labs2_visual-image-tube"
             />
           </div>

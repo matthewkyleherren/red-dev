@@ -12,31 +12,31 @@ declare global {
 const SLIDES = [
   {
     img: '/images/site/68db0c05e445f893e1bec67e_prescriptions.avif',
-    alt: 'Four medical products: B12 injections, Enclomiphene, NAD+ intranasal, and Semaglutide, displayed in separate boxes.',
-    title: 'Prescriptions',
-    desc: 'Medication you can buy from us, at discounted prices.',
+    alt: '',
+    title: 'Movement Classes',
+    desc: 'Kundalini Yoga, Dynamic Meditation with Ecstatic Dance, Lymphatic Drainage & Fascia Flow, Women\u2019s Vitality Flow, and red. Reset — classes that pair movement with the studio\u2019s healing environment.',
   },
   {
     img: '/images/site/691b435c24cfaf4a07d48f10_marketplace-orange-bg.avif',
     imgSrcSet:
       '/images/site/691b435c24cfaf4a07d48f10_marketplace-orange-bg-p-500.avif 500w, /images/site/691b435c24cfaf4a07d48f10_marketplace-orange-bg-p-800.avif 800w, /images/site/691b435c24cfaf4a07d48f10_marketplace-orange-bg.avif 1650w',
     alt: '',
-    title: 'Supplements',
-    desc: 'Curated supplements and medical products',
+    title: 'The Health Bar',
+    desc: 'Curated drinks and nourishment to extend the benefits of your session. Included with select packages like Besties Glowing.',
   },
   {
     img: '/images/site/68db0c4476b037b40ee2e998_img%20frame.avif',
-    alt: 'Two white test kits: Environmental Toxins with a brown texture, Gut Microbiome Test with an orange pattern.',
-    title: 'Add-on Testing',
-    desc: 'Further advanced testing across gut health, cancer risk and toxins.',
+    alt: '',
+    title: 'The Mindfulness Menu',
+    desc: 'Breathwork, body scans, visualisations, sleep meditations and more. A growing library of guided audio experiences to pair with every session.',
   },
   {
     img: '/images/site/6909a982dbe21af11d0e9b06_img%20frame.avif',
     imgSrcSet:
       '/images/site/6909a982dbe21af11d0e9b06_img%20frame-p-500.avif 500w, /images/site/6909a982dbe21af11d0e9b06_img%20frame.avif 1074w',
     alt: '',
-    title: 'Unlimited Concierge',
-    desc: 'Use your 24/7 message access to ask questions, our care team will answer within 24 hours on weekdays',
+    title: 'The red. Membership',
+    desc: 'CHF 222/month or CHF 2,222/year for unlimited access to all experiences and movement classes. Priority booking, member pricing, and a community built around consistent wellbeing.',
   },
 ];
 
@@ -115,8 +115,8 @@ export default function WeGuideYouSwiper() {
               <div className="page-padding-mobile heading-mobile">
                 <div className="title_row is-2col">
                   <div>
-                    <div className="text-style-muted">After your health plan</div>
-                    <h2 className="heading-style-h1">We guide you to what you need</h2>
+                    <div className="text-style-muted">Beyond your session</div>
+                    <h2 className="heading-style-h1">Everything at red.</h2>
                   </div>
                 </div>
               </div>
@@ -178,7 +178,7 @@ export default function WeGuideYouSwiper() {
             <div className="margin-top margin-medium">
               <div className="button_row">
                 <Link href="/checkout" className="button is-large is-icon w-inline-block">
-                  <div>Book my blood test</div>
+                  <div>Start your membership</div>
                   <div className="icon-embed-regular w-embed">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M9 18L15 12L9 6" stroke="#FAFAFA" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

@@ -76,10 +76,10 @@ export default function TrustpilotStats() {
         <div className="container-large z-index-2">
           <div className="trustpilot_layout">
             <h2>
-              &ldquo;Superpower gave me what no doctor, supplement, or app ever could: clarity. If you&apos;re tired of vague advice and want real insight into your body, it&apos;s worth it.&rdquo;
+              &ldquo;I come every week. The combination of the light and the meditation is unlike anything else I&apos;ve tried. I sleep better, look better, and feel more like myself.&rdquo;
             </h2>
-            <Link href="/reviews" className="trustpilot_reviews_wrap w-inline-block">
-              <div className="text-size-large">Read reviews</div>
+            <Link href="/how-it-works" className="trustpilot_reviews_wrap w-inline-block">
+              <div className="text-size-large">Learn more</div>
               <div className="trustpilot_reviews_icon w-embed">
                 <svg width="100%" height="100%" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M5.01221 12.4424H19.0122M19.0122 12.4424L12.0122 5.44238M19.0122 12.4424L12.0122 19.4424" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -90,45 +90,45 @@ export default function TrustpilotStats() {
           <div className="trustpilot_bottom_layout">
             <div className="trustpilot_bottom_card">
               <div className="trustpilot_bottom_number_wrap">
-                <div data-end="63" data-counter="" className="trustpilot_bottom_number kpi1">63</div>
+                <div data-end="122" data-counter="" className="trustpilot_bottom_number kpi1">122</div>
                 <div className="trustpilot_bottom_percent">%</div>
               </div>
               <div className="trustpilot_bottom_par">
                 <div className="trustpilot_bottom_text1">
-                  <span className="text-style-muted">of members find</span><br />early risk factors for diabetes
+                  increase in HRV observed<br />after consistent RLT sessions
                 </div>
                 <div className="trustpilot_bottom_text2">
-                  <span className="text-style-muted">of members find</span> early risk factors for diabetes
+                  increase in HRV observed after consistent RLT sessions
                 </div>
               </div>
             </div>
             <div className="trustpilot_bottom_separator"></div>
             <div className="trustpilot_bottom_card is-middle">
               <div className="trustpilot_bottom_number_wrap">
-                <div data-end="44" data-counter="" className="trustpilot_bottom_number kpi2">44</div>
-                <div className="trustpilot_bottom_percent">%</div>
+                <div data-end="3" data-counter="" className="trustpilot_bottom_number kpi2">3</div>
+                <div className="trustpilot_bottom_percent">–8 weeks</div>
               </div>
               <div className="trustpilot_bottom_par">
                 <div className="trustpilot_bottom_text1">
-                  <span className="text-style-muted">of members find</span><br />elevated heart disease risk
+                  for visible improvements<br />with 2–4 sessions per week
                 </div>
                 <div className="trustpilot_bottom_text2">
-                  <span className="text-style-muted">of members find</span> elevated heart disease risk
+                  for visible improvements with 2–4 sessions per week
                 </div>
               </div>
             </div>
             <div className="trustpilot_bottom_separator"></div>
             <div className="trustpilot_bottom_card">
               <div className="trustpilot_bottom_number_wrap">
-                <div data-end="70" data-counter="" className="trustpilot_bottom_number kpi3">70</div>
-                <div className="trustpilot_bottom_percent">%</div>
+                <div data-end="8000" data-counter="" className="trustpilot_bottom_number kpi3">8000</div>
+                <div className="trustpilot_bottom_percent">+</div>
               </div>
               <div className="trustpilot_bottom_par">
                 <div className="trustpilot_bottom_text1">
-                  <span className="text-style-muted">of members slow</span><br />their speed of ageing
+                  peer-reviewed studies<br />supporting photobiomodulation
                 </div>
                 <div className="trustpilot_bottom_text2">
-                  <span className="text-style-muted">of members</span> slow their speed of aging
+                  peer-reviewed studies supporting photobiomodulation
                 </div>
               </div>
             </div>

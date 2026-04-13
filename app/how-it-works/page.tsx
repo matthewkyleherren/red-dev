@@ -36,13 +36,13 @@ const pageStyles = `
 `;
 
 export const metadata: Metadata = {
-  title: 'How Superpower works',
+  title: 'How the red. experience works',
   description:
-    'Book your labs in 15 min, and test 100+ labs in 1 blood draw. Get your results in 10 days.',
+    '11 minutes of red light therapy and guided mindfulness. Discover how the red. experience works and what to expect from your first session.',
   openGraph: {
-    title: 'How Superpower works',
+    title: 'How the red. experience works',
     description:
-      'Book your labs in 15 min, and test 100+ labs in 1 blood draw. Get your results in 10 days.',
+      '11 minutes of red light therapy and guided mindfulness. Discover how the red. experience works and what to expect from your first session.',
     images: [
       {
         url: '/images/site/68a46596a7cc1743771ce6f3_image%20(10).avif',
@@ -51,9 +51,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'How Superpower works',
+    title: 'How the red. experience works',
     description:
-      'Book your labs in 15 min, and test 100+ labs in 1 blood draw. Get your results in 10 days.',
+      '11 minutes of red light therapy and guided mindfulness. Discover how the red. experience works and what to expect from your first session.',
     images: ['/images/site/68a46596a7cc1743771ce6f3_image%20(10).avif'],
   },
 };
