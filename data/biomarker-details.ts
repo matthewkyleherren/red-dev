@@ -4,6 +4,7 @@
 export interface ContentItem {
   type: "h4" | "p" | "ul";
   text?: string;
+  html?: string;
   items?: string[];
 }
 
