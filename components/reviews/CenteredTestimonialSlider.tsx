@@ -10,22 +10,22 @@ function CornerBorders() {
     <div className="testimonial-sticky_corner-wrapper">
       <div className="sticky_corner w-embed">
         <svg width="100%" height="100%" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 10V0H11" stroke="#FC5F2B" />
+          <path d="M1 10V0H11" stroke="#DC2626" />
         </svg>
       </div>
       <div className="sticky_corner is-2 w-embed">
         <svg width="100%" height="100%" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 10V0H2.98023e-07" stroke="#FC5F2B" />
+          <path d="M10 10V0H2.98023e-07" stroke="#DC2626" />
         </svg>
       </div>
       <div className="sticky_corner is-3 w-embed">
         <svg width="100%" height="100%" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 -4.17233e-07V10H10" stroke="#FC5F2B" />
+          <path d="M0 -4.17233e-07V10H10" stroke="#DC2626" />
         </svg>
       </div>
       <div className="sticky_corner is-4 w-embed">
         <svg width="100%" height="100%" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 -4.17233e-07V10H2.98023e-07" stroke="#FC5F2B" />
+          <path d="M10 -4.17233e-07V10H2.98023e-07" stroke="#DC2626" />
         </svg>
       </div>
     </div>

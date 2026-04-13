@@ -125,7 +125,7 @@ main:focus-visible { outline: -webkit-focus-ring-color auto 0px; }
 [data-paralax-img-s] { transform: scale(1.2); }
 
 .show-only-webflow { display: none; }
-.text-rich_sp2 ul li::marker { color: #fc5f2b; }
+.text-rich_sp2 ul li::marker { color: #dc2626; }
 
 /* Plyr video-card styles — the original site loads a plyr-video-card CSS file from CDN
    that sets border-radius: inherit. We replicate the essential rules here. */
@@ -144,7 +144,7 @@ main:focus-visible { outline: -webkit-focus-ring-color auto 0px; }
   .text-size-mono { font-size: 0.75rem !important; line-height: 1.5 !important; letter-spacing: -0.24px !important; }
 }
 
-.decode_row.is-active .row-indicator { width: 14px; background-color: #FC5F2B; margin-right: 8px; }
+.decode_row.is-active .row-indicator { width: 14px; background-color: #DC2626; margin-right: 8px; }
 .home-hero_bg-video-wrapper { background-size: cover; background-position: center; background-repeat: no-repeat; }
 `,
           }}

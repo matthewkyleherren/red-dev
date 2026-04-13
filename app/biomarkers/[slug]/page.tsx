@@ -242,15 +242,15 @@ export default async function BiomarkerDetailPage({ params }: PageProps) {
               @media screen and (max-width: 479px) { .hide-mobile { display: none !important; } }
               .margin-0 { margin: 0rem !important; }
               .padding-0 { padding: 0rem !important; }
-              .text_rich-1 ul li::marker { color: #fc5f2b; }
-              .text-rich_sp2 ul li::marker { color: #fc5f2b; }
+              .text_rich-1 ul li::marker { color: #dc2626; }
+              .text-rich_sp2 ul li::marker { color: #dc2626; }
               .biomarker-featured_item:hover .blog-cms-hero_chevron { transform: translateX(0.25rem); opacity: 1; }
               .blog-cms-content_main > .rich-text_editorial blockquote { max-width: none !important; margin-left: -2rem; margin-right: -2rem; width: calc(100% + 4rem); }
               .toc-link.w--current .included-toc_bullet { width: 1rem; opacity: 1; }
               .included_toc-link.w--current, .content_link.is-h2.w--current { color: #333; }
-              .included_toc-link.w--current .included-toc_line, .content_link.is-h2.w--current .included-toc_line { background-color: #fc5f2b; width: 1.25rem; transition: width 0.3s ease, background-color 0.3s ease; }
+              .included_toc-link.w--current .included-toc_line, .content_link.is-h2.w--current .included-toc_line { background-color: #dc2626; width: 1.25rem; transition: width 0.3s ease, background-color 0.3s ease; }
               .included_toc-link:hover, .content_link.is-h2:hover { color: #333; }
-              .included_toc-link:hover .included-toc_line, .content_link.is-h2:hover .included-toc_line { background-color: #fc5f2b; width: 1.25rem; transition: width 0.3s ease, background-color 0.3s ease; }
+              .included_toc-link:hover .included-toc_line, .content_link.is-h2:hover .included-toc_line { background-color: #dc2626; width: 1.25rem; transition: width 0.3s ease, background-color 0.3s ease; }
             `,
           }}
         />

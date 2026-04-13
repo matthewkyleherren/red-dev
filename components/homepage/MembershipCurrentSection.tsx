@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const CheckIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="17" height="13" viewBox="0 0 17 13" fill="none">
-    <path d="M1 6.11887L6.19766 11.5967L16 1.59668" stroke="#FC5F2B" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M1 6.11887L6.19766 11.5967L16 1.59668" stroke="#DC2626" strokeWidth="1.66667" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 

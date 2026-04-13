@@ -7,8 +7,8 @@
 <use xlink:href="#image0_7253_14366" transform="matrix(0.0015674 0 0 0.00177853 -0.159875 -0.110269)"/>
 </pattern>
 <linearGradient id="paint0_linear_7253_14366" x1="91.3321" y1="232.1" x2="168.249" y2="22.1339" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FC5F2B" stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>
-<stop offset="1" stop-color="#FC5F2B" style="stop-color:#FC5F2B;stop-color:color(display-p3 0.9882 0.3725 0.1686);stop-opacity:1;"/>
+<stop stop-color="#dc2626" stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>
+<stop offset="1" stop-color="#dc2626" style="stop-color:#dc2626;stop-color:color(display-p3 0.9882 0.3725 0.1686);stop-opacity:1;"/>
 </linearGradient>
 <linearGradient id="paint1_linear_7253_14366" x1="119.5" y1="0" x2="119.5" y2="211" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>

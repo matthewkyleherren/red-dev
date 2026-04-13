@@ -8,7 +8,7 @@ export default function BiomarkersStyles() {
       dangerouslySetInnerHTML={{
         __html: `
 /* ── Config panel colors ── */
-.config_color-orange{background:#FC5F2B}.config_color-cyan{background:#00bcd4}.config_color-purple{background:#9c27b0}.config_color-green{background:#2e9e5a}.config_color-red{background:#e53935}.config_color-lavender{background:#7e57c2}.config_color-pink{background:#e84e7a}.config_color-teal{background:#009688}.config_color-amber{background:#f4a100}.config_color-gray{background:#d4d4d4}.config_color-multi{background:linear-gradient(135deg,#FC5F2B 0%,#f4a100 50%,#2e9e5a 100%)}
+.config_color-orange{background:#DC2626}.config_color-cyan{background:#00bcd4}.config_color-purple{background:#9c27b0}.config_color-green{background:#2e9e5a}.config_color-red{background:#e53935}.config_color-lavender{background:#7e57c2}.config_color-pink{background:#e84e7a}.config_color-teal{background:#009688}.config_color-amber{background:#f4a100}.config_color-gray{background:#d4d4d4}.config_color-multi{background:linear-gradient(135deg,#DC2626 0%,#f4a100 50%,#2e9e5a 100%)}
 
 /* ── Biomarker dots ── */
 .config_biomarker-dots{display:inline-flex;align-items:center;flex-shrink:0;vertical-align:middle}
@@ -18,7 +18,7 @@ export default function BiomarkersStyles() {
 /* ── Accordion variables ── */
 :root {
   --accordion-border-color: #e8e8e8;
-  --accordion-border-color-active: #FC5F2B;
+  --accordion-border-color-active: #DC2626;
   --accordion-bg-color: #ffffff;
   --accordion-title-color: #1a1a1a;
   --accordion-text-color: #666666;
@@ -109,7 +109,7 @@ export default function BiomarkersStyles() {
 .bio_root,.bio_root *,.bio_root *::before,.bio_root *::after{box-sizing:border-box}
 
 .bio_nav-item{transition:color .22s ease;box-shadow:none!important}
-.bio_nav-item.is-active{border:1px solid #FC5F2B!important;box-shadow:none!important;font-weight:400!important}
+.bio_nav-item.is-active{border:1px solid #DC2626!important;box-shadow:none!important;font-weight:400!important}
 
 .bio_nav{max-height:18.5rem;overflow-y:auto;overflow-x:hidden;scrollbar-width:thin;scrollbar-color:transparent transparent;scrollbar-gutter:stable;-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 85%,transparent 100%);mask-image:linear-gradient(to bottom,#000 0%,#000 85%,transparent 100%)}
 .bio_nav.is-scrolled{-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 85%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 0%,#000 8%,#000 85%,transparent 100%)}

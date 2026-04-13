@@ -94,8 +94,8 @@ export default function GiftHero() {
                   y2="618.466"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stopColor="#FC5F2B" />
-                  <stop offset="1" stopColor="#FC5F2B" stopOpacity="0" />
+                  <stop stopColor="#DC2626" />
+                  <stop offset="1" stopColor="#DC2626" stopOpacity="0" />
                 </linearGradient>
               </defs>
             </svg>

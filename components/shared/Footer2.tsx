@@ -285,7 +285,7 @@ export default function Footer2() {
                     <feGaussianBlur stdDeviation="80" />
                   </filter>
                 </defs>
-                <ellipse cx="400" cy="300" rx="300" ry="200" fill="#FC5F2B" opacity="0.15" filter="url(#f2blur)" />
+                <ellipse cx="400" cy="300" rx="300" ry="200" fill="#DC2626" opacity="0.15" filter="url(#f2blur)" />
                 <ellipse cx="700" cy="350" rx="250" ry="180" fill="#f4a100" opacity="0.1" filter="url(#f2blur)" />
                 <ellipse cx="600" cy="250" rx="400" ry="250" fill="white" opacity="0.3" filter="url(#f2blur)" />
               </svg>

@@ -3,9 +3,9 @@
 <rect x="0.375" y="0.375" width="20.25" height="20.25" rx="5.625" stroke="#FAFAFA" style="stroke:#FAFAFA;stroke:color(display-p3 0.9804 0.9804 0.9804);stroke-opacity:1;" stroke-width="0.75"/>
 <rect x="0.375" y="0.375" width="20.25" height="20.25" rx="5.625" stroke="url(#paint1_linear_7165_38)" stroke-opacity="0.4" stroke-width="0.75"/>
 <g clip-path="url(#clip0_7165_38)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8 6.84152C10.922 6.71948 11.1199 6.71948 11.2419 6.84152L14.1586 9.75819C14.2806 9.88022 14.2806 10.0781 14.1586 10.2001C14.0366 10.3222 13.8387 10.3222 13.7167 10.2001L13.521 10.0044L9.36694 14.1585C8.66961 14.8558 7.539 14.8558 6.84167 14.1585C6.14433 13.4611 6.14433 12.3305 6.84167 11.6332L10.9957 7.47916L10.8 7.28346C10.678 7.16142 10.678 6.96356 10.8 6.84152ZM11.4376 7.9211L8.85875 10.5H12.1415L13.079 9.56249L11.4376 7.9211Z" fill="#FC5F2B" style="fill:#FC5F2B;fill:color(display-p3 0.9882 0.3725 0.1686);fill-opacity:1;"/>
-<path d="M14.2516 7.99999C14.2516 8.23011 14.0651 8.41666 13.8349 8.41666C13.6048 8.41666 13.4183 8.23011 13.4183 7.99999C13.4183 7.76987 13.6048 7.58332 13.8349 7.58332C14.0651 7.58332 14.2516 7.76987 14.2516 7.99999Z" fill="#FC5F2B" style="fill:#FC5F2B;fill:color(display-p3 0.9882 0.3725 0.1686);fill-opacity:1;"/>
-<path d="M13.8349 6.54166C13.8349 6.88683 13.5551 7.16666 13.2099 7.16666C12.8648 7.16666 12.5849 6.88683 12.5849 6.54166C12.5849 6.19648 12.8648 5.91666 13.2099 5.91666C13.5551 5.91666 13.8349 6.19648 13.8349 6.54166Z" fill="#FC5F2B" style="fill:#FC5F2B;fill:color(display-p3 0.9882 0.3725 0.1686);fill-opacity:1;"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.8 6.84152C10.922 6.71948 11.1199 6.71948 11.2419 6.84152L14.1586 9.75819C14.2806 9.88022 14.2806 10.0781 14.1586 10.2001C14.0366 10.3222 13.8387 10.3222 13.7167 10.2001L13.521 10.0044L9.36694 14.1585C8.66961 14.8558 7.539 14.8558 6.84167 14.1585C6.14433 13.4611 6.14433 12.3305 6.84167 11.6332L10.9957 7.47916L10.8 7.28346C10.678 7.16142 10.678 6.96356 10.8 6.84152ZM11.4376 7.9211L8.85875 10.5H12.1415L13.079 9.56249L11.4376 7.9211Z" fill="#dc2626" style="fill:#dc2626;fill:color(display-p3 0.9882 0.3725 0.1686);fill-opacity:1;"/>
+<path d="M14.2516 7.99999C14.2516 8.23011 14.0651 8.41666 13.8349 8.41666C13.6048 8.41666 13.4183 8.23011 13.4183 7.99999C13.4183 7.76987 13.6048 7.58332 13.8349 7.58332C14.0651 7.58332 14.2516 7.76987 14.2516 7.99999Z" fill="#dc2626" style="fill:#dc2626;fill:color(display-p3 0.9882 0.3725 0.1686);fill-opacity:1;"/>
+<path d="M13.8349 6.54166C13.8349 6.88683 13.5551 7.16666 13.2099 7.16666C12.8648 7.16666 12.5849 6.88683 12.5849 6.54166C12.5849 6.19648 12.8648 5.91666 13.2099 5.91666C13.5551 5.91666 13.8349 6.19648 13.8349 6.54166Z" fill="#dc2626" style="fill:#dc2626;fill:color(display-p3 0.9882 0.3725 0.1686);fill-opacity:1;"/>
 </g>
 <defs>
 <linearGradient id="paint0_linear_7165_38" x1="12.375" y1="13.5" x2="7.5" y2="5.625" gradientUnits="userSpaceOnUse">
@@ -13,10 +13,10 @@
 <stop offset="1" stop-color="#F4F4F5" style="stop-color:#F4F4F5;stop-color:color(display-p3 0.9569 0.9569 0.9608);stop-opacity:1;"/>
 </linearGradient>
 <linearGradient id="paint1_linear_7165_38" x1="16.875" y1="21" x2="2.43862" y2="1.23149" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FC5F2B" style="stop-color:#FC5F2B;stop-color:color(display-p3 0.9882 0.3725 0.1686);stop-opacity:1;"/>
+<stop stop-color="#dc2626" style="stop-color:#dc2626;stop-color:color(display-p3 0.9882 0.3725 0.1686);stop-opacity:1;"/>
 <stop offset="0.43955" stop-color="#FDBA74" stop-opacity="0.2" style="stop-color:#FDBA74;stop-color:color(display-p3 0.9922 0.7294 0.4549);stop-opacity:0.2;"/>
 <stop offset="0.673091" stop-color="#FDBA74" stop-opacity="0" style="stop-color:none;stop-opacity:0;"/>
-<stop offset="1" stop-color="#FC5F2B" style="stop-color:#FC5F2B;stop-color:color(display-p3 0.9882 0.3725 0.1686);stop-opacity:1;"/>
+<stop offset="1" stop-color="#dc2626" style="stop-color:#dc2626;stop-color:color(display-p3 0.9882 0.3725 0.1686);stop-opacity:1;"/>
 </linearGradient>
 <clipPath id="clip0_7165_38">
 <rect width="10" height="10" fill="white" style="fill:white;fill-opacity:1;" transform="translate(5.5 5.5)"/>

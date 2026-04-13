@@ -104,7 +104,7 @@ export default function TableOfContents({ headings }: TableOfContentsProps) {
                     className="included-toc_line"
                     style={
                       activeId === heading.id
-                        ? { backgroundColor: '#fc5f2b', width: '1.25rem' }
+                        ? { backgroundColor: '#dc2626', width: '1.25rem' }
                         : {}
                     }
                   />

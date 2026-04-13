@@ -92,7 +92,7 @@ const OFTEN_LABELS: Record<OftenKey, string> = {
 function CheckIconOrange() {
   return (
     <svg width="100%" height="100%" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fillRule="evenodd" clipRule="evenodd" d="M9.00077 0.117371C9.3387 0.336401 9.43509 0.78791 9.21606 1.12584L4.11189 9.00084C3.98709 9.19339 3.77894 9.31596 3.55002 9.3317C3.32111 9.34744 3.09814 9.25451 2.94816 9.08085L0.177329 5.87252C-0.0858892 5.56774 -0.0521976 5.10729 0.252581 4.84407C0.557359 4.58085 1.01781 4.61454 1.28103 4.91932L3.41668 7.39218L7.9923 0.332662C8.21133 -0.00527079 8.66284 -0.10166 9.00077 0.117371Z" fill="#FC5F2B" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M9.00077 0.117371C9.3387 0.336401 9.43509 0.78791 9.21606 1.12584L4.11189 9.00084C3.98709 9.19339 3.77894 9.31596 3.55002 9.3317C3.32111 9.34744 3.09814 9.25451 2.94816 9.08085L0.177329 5.87252C-0.0858892 5.56774 -0.0521976 5.10729 0.252581 4.84407C0.557359 4.58085 1.01781 4.61454 1.28103 4.91932L3.41668 7.39218L7.9923 0.332662C8.21133 -0.00527079 8.66284 -0.10166 9.00077 0.117371Z" fill="#DC2626" />
     </svg>
   );
 }
@@ -128,7 +128,7 @@ function ChecklistIcon() {
 function TagIcon() {
   return (
     <svg width="100%" height="100%" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fillRule="evenodd" clipRule="evenodd" d="M0 1.875C0 0.839466 0.839466 0 1.875 0H4.37056C4.86784 0 5.34476 0.197544 5.69639 0.549175L9.4545 4.30729C10.1867 5.03952 10.1867 6.22671 9.45451 6.95894L6.95894 9.4545C6.22671 10.1867 5.03952 10.1867 4.30729 9.4545L0.549175 5.69639C0.197544 5.34476 0 4.86784 0 4.37056V1.875ZM2.75 3.5C3.16421 3.5 3.5 3.16421 3.5 2.75C3.5 2.33579 3.16421 2 2.75 2C2.33579 2 2 2.33579 2 2.75C2 3.16421 2.33579 3.5 2.75 3.5Z" fill="#FC5F2B" />
+      <path fillRule="evenodd" clipRule="evenodd" d="M0 1.875C0 0.839466 0.839466 0 1.875 0H4.37056C4.86784 0 5.34476 0.197544 5.69639 0.549175L9.4545 4.30729C10.1867 5.03952 10.1867 6.22671 9.45451 6.95894L6.95894 9.4545C6.22671 10.1867 5.03952 10.1867 4.30729 9.4545L0.549175 5.69639C0.197544 5.34476 0 4.86784 0 4.37056V1.875ZM2.75 3.5C3.16421 3.5 3.5 3.16421 3.5 2.75C3.5 2.33579 3.16421 2 2.75 2C2.33579 2 2 2.33579 2 2.75C2 3.16421 2.33579 3.5 2.75 3.5Z" fill="#DC2626" />
     </svg>
   );
 }
@@ -336,11 +336,11 @@ export default function MembershipPricing() {
       {/* CSS for radio button checked state */}
       <style dangerouslySetInnerHTML={{ __html: `
         .memb_radio-btn-field:has(.memb_radio-btn:checked) {
-          background: rgba(252, 95, 43, 0.05);
-          border: 1px solid rgba(252, 95, 43, 0.25);
-          outline: 2px solid #fc5f2b;
+          background: rgba(220, 38, 38, 0.05);
+          border: 1px solid rgba(220, 38, 38, 0.25);
+          outline: 2px solid #dc2626;
           outline-offset: -4px;
-          box-shadow: 1px 5px 0px #fc5f2b;
+          box-shadow: 1px 5px 0px #dc2626;
         }
         .memb_radio-btn-field {
           transition: background 0.15s ease, box-shadow 0.15s ease, outline-offset 0.15s ease;
