@@ -548,9 +548,9 @@ function AskAISummary() {
           <div className="footer_ai_img">
             <img
               sizes="(max-width: 1200px) 100vw, 1200px, 100vw"
-              srcSet="/images/site/69086d2f5f01b9446acb9069_claude_ai_symbol.svg-p-500.png 500w, /images/site/69086d2f5f01b9446acb9069_claude_ai_symbol.svg.avif 1200w"
+              srcSet="/images/site/69086d2f5f01b9446acb9069_Claude_AI_symbol.svg-p-500.png 500w, /images/site/69086d2f5f01b9446acb9069_Claude_AI_symbol.svg.avif 1200w"
               alt=""
-              src="/images/site/69086d2f5f01b9446acb9069_claude_ai_symbol.svg.avif"
+              src="/images/site/69086d2f5f01b9446acb9069_Claude_AI_symbol.svg.avif"
               loading="lazy"
               className="image_cover-absolute"
               style={{ visibility: 'visible' }}
@@ -561,7 +561,7 @@ function AskAISummary() {
           <div className="footer_ai_img">
             <img
               loading="lazy"
-              src="/images/site/69086d2eaa31ec31adbc3068_google_bard_logo%20(1).svg"
+              src="/images/site/69086d2eaa31ec31adbc3068_Google_Bard_logo%20(1).svg"
               alt=""
               className="image_cover-absolute"
               style={{ visibility: 'visible' }}

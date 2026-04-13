@@ -95,7 +95,7 @@ export default function TestimonialQuoteSlider() {
   return (
     <section className="section_testimonial-slider">
       <img
-        src="/images/site/68149c0a83da84c76a4611c4_cleanshot%202025-04-26%20at%2022.42.45@2x%201.avif"
+        src="/images/site/68149c0a83da84c76a4611c4_cleanshot%202025-04-26%20at%2022.42.45-2x%201.avif"
         loading="lazy"
         alt=""
         className="testimonials_image-stretch"

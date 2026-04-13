@@ -141,7 +141,7 @@ const testimonials: TestimonialData[] = [
     quote:
       "He's been waiting years for a way to measure and track his health over time.",
     posterImg:
-      '/images/site/6992e86890cf6ffecbb368ca_dan-before%20superpower,%20i%20felt%20aimless.avif',
+      '/images/site/6992e86890cf6ffecbb368ca_dan-before%20superpower%20i%20felt%20aimless.avif',
     videoSrc:
       '/videos/testimonials/dan-before%20superpower,%20i%20felt%20aimless.mp4',
     videoPoster:

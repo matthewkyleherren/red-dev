@@ -102,7 +102,7 @@ export default function BiomarkersTestSection() {
                       {bio.isDerived && (
                         <div className="tooltip-wrapper-2 is-biomarker">
                           <img
-                            src="/images/site/698b4da1c31ef79d767bfcf9_frame%201321315848.svg"
+                            src="/images/site/698b4da1c31ef79d767bfcf9_Frame%201321315848.svg"
                             loading="lazy"
                             alt=""
                             className="icon_bio-derived"

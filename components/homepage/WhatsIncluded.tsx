@@ -17,8 +17,8 @@ const items = [
     desc: 'Lifestyle, diet, supplement & Rx recommendations.',
   },
   {
-    img: '/images/site/6909a982dbe21af11d0e9b06_Img%20Frame.avif',
-    imgSrcSet: '/images/site/6909a982dbe21af11d0e9b06_Img%20Frame-p-500.avif 500w, /images/site/6909a982dbe21af11d0e9b06_Img%20Frame.avif 1074w',
+    img: '/images/site/6909a982dbe21af11d0e9b06_img%20frame.avif',
+    imgSrcSet: '/images/site/6909a982dbe21af11d0e9b06_img%20frame-p-500.avif 500w, /images/site/6909a982dbe21af11d0e9b06_img%20frame.avif 1074w',
     title: 'Unlimited concierge messaging',
     desc: 'Ask unlimited questions and get answers within 24 hours on week days from our care team.',
   },
